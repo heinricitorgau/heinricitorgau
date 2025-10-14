@@ -1,9 +1,12 @@
 # 👋 Hi, I'm Heinrici Torgau  
 
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&animation=fadeIn)
+
+
 🎓 **CSIE student** | 💻 **Cybersecurity & Network Defense Researcher** | 🧠 **Ethical Hacker**  
 I build safe, reproducible attack–defense environments to explore how systems break — and how to protect them.  
 
-> “The RB19 performs average in every aspect—and that’s what makes it great.” — Pierre Waché  
+> “The RB19 performs average in every aspect — and that’s what makes it great.” — Pierre Waché  
 
 ---
 
@@ -31,21 +34,47 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 ## ⚙️ Tech Stack & Tools
 `Python` · `Bash` · `Linux (Kali, Debian, Parrot)` · `VirtualBox`  
 `Wireshark` · `GStreamer` · `dnsmasq` · `Tor` · `Apache2`  
-`fail2ban` · `auditd` · `Tripwire` · `Rails`  
+`fail2ban` · `auditd` · `Tripwire` · `Rails`
 
 ---
 
 ## 🌱 Current Goals
-- Build a complete educational cybersecurity series combining **offense, defense, and anonymity**.  
-- Publish step-by-step open-source tutorials for **ethical hacking labs**.  
-- Expand Tor-based **IP rotation automation** with machine-learning-based traffic analysis.  
+- Build a complete educational cybersecurity series combining **offense, defense, and anonymity**  
+- Publish step-by-step open-source tutorials for **ethical hacking labs**  
+- Expand Tor-based **IP rotation automation** with ML-based traffic analysis  
 
 ---
 
 ## 🧩 Side Projects & Research
-- **C2 Architecture Simulation** — Python socket-based client/server for secure detection training.  
-- **Ghost Mode 3** — Automated Tor ControlPort IP-rotation tool for anonymity research.  
-- **RailsGoat Patch Analysis** — OWASP Top 10 web exploitation & defense demonstration.  
+- **C2 Architecture Simulation** — Python socket-based client/server for secure detection training  
+- **Ghost Mode 3** — Automated Tor ControlPort IP-rotation tool for anonymity research  
+- **RailsGoat Patch Analysis** — OWASP Top 10 web exploitation & defense demonstration  
+
+---
+
+## 📊 GitHub Stats
+![Heinrictorgau's GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinrictorgau&show_icons=true&theme=tokyonight&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinrictorgau&layout=compact&theme=tokyonight)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=heinrictorgau&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
+
+---
+
+## 🌐 Social Badges
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Heinrici_Torgau-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/heinrictorgau-a85a09383)
+[![GitHub](https://img.shields.io/badge/GitHub-heinrictorgau-lightgrey?logo=github)](https://github.com/heinrictorgau)
+[![Instagram](https://img.shields.io/badge/Instagram-@heinrictorgau-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/heinrictorgau/)
+[![Facebook](https://img.shields.io/badge/Facebook-Heinrici_Torgau-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/heinrictorgau)
+
+---
+
+## 🧠 Languages & Tools
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Tor](https://img.shields.io/badge/Tor-7E4798?style=for-the-badge&logo=tor-project&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 
 ---
 
@@ -53,12 +82,18 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 📍 Hsinchu, Taiwan  
 📧 ek2412045@gmail.com  
 🔗 [Google Drive Portfolio](https://drive.google.com/drive/folders/1wRfW2hEyTfO4_nNgEhrgAHP9SuDaUpx)  
-🐙 [GitHub @heinrictorgau](https://github.com/heinrictorgau)  
+🐙 [GitHub @heinrictorgau](https://github.com/heinrictorgau)
 
 ---
 
 ## 🧾 License & Conduct
 All public repositories are released under the **[MIT License](https://github.com/heinrictorgau/Cybersecurity-Offense-Defense-Anonymity-Lab-Series/blob/main/LICENSE)**.  
+Please follow the **[Contributor Covenant Code of Conduct](https://github.com/heinrictorgau/Cybersecurity-Offense-Defense-Anonymity-Lab-Series/blob/main/CODE_OF_CONDUCT.md)** when contributing.  
+
+---
+
+⭐ *Build to understand, not to exploit.*
+ob/main/LICENSE)**.  
 Please follow the **[Contributor Covenant Code of Conduct](https://github.com/heinrictorgau/Cybersecurity-Offense-Defense-Anonymity-Lab-Series/blob/main/CODE_OF_CONDUCT.md)** when contributing.  
 
 ---
