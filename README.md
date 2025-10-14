@@ -75,7 +75,7 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 [![GitHub](https://img.shields.io/badge/GitHub-heinricitorgau-lightgrey?logo=github)](https://github.com/heinricitorgau)
 [![Instagram](https://img.shields.io/badge/Instagram-@heinricitorgau-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/heinricitorgau/)
 [![Facebook](https://img.shields.io/badge/Facebook-Heinrici_Torgau-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/heinricitorgau/)
-[![X](https://img.shields.io/badge/-@ek2412045-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ek2412045)
+[![X](https://img.shields.io/badge/X-Heinrici_Torgau-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/ek2412045)
 
 ---
 
