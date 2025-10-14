@@ -4,9 +4,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=500&color=00BFFF&width=435&lines=Cybersecurity+Researcher;Network+Defense+Engineer;Ethical+Hacker;Tor+Automation+Developer)](https://git.io/typing-svg)
 
-![Heinrici’s Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=heinricitorgau&show_icons=true&theme=tokyonight#gh-dark-mode-only)
-![Heinrici’s Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=heinricitorgau&show_icons=true&theme=default#gh-light-mode-only)
-
 🎓 **CSIE student** | 💻 **Cybersecurity & Network Defense Researcher** | 🧠 **Ethical Hacker**  
 I build safe, reproducible attack–defense environments to explore how systems break — and how to protect them.  
 
@@ -57,10 +54,10 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 ---
 
 ## 📊 GitHub Stats
-![Heinricitorgau's GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinricitorgau&show_icons=true&theme=tokyonight&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=tokyonight)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=heinricitorgau&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
+![Heinrici's GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinricitorgau&show_icons=true&theme=tokyonight&include_all_commits=true&rank_icon=github)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=tokyonight&langs_count=8)
+[![GitHub Streak](https://streak-stats.demolab.com?user=heinricitorgau&theme=tokyonight-duo&hide_border=false)](https://git.io/streak-stats)
 
 ---
 
@@ -91,7 +88,10 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 ---
 
 ## 🧾 License
+
 All public repositories are released under the **[MIT License](https://github.com/heinricitorgau/Experimental-C2-Architecture-and-Cyber-Defense-Analysis/blob/main/LICENSE)**.  
+
+For collaboration, please follow standard open-source etiquette when submitting issues or pull requests.
 
 ---
 
