@@ -2,6 +2,10 @@
 
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&animation=fadeIn)
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=500&color=00BFFF&width=435&lines=Cybersecurity+Researcher;Network+Defense+Engineer;Ethical+Hacker;Tor+Automation+Developer)](https://git.io/typing-svg)
+
+![Heinrici’s Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=heinricitorgau&show_icons=true&theme=tokyonight#gh-dark-mode-only)
+![Heinrici’s Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=heinricitorgau&show_icons=true&theme=default#gh-light-mode-only)
 
 🎓 **CSIE student** | 💻 **Cybersecurity & Network Defense Researcher** | 🧠 **Ethical Hacker**  
 I build safe, reproducible attack–defense environments to explore how systems break — and how to protect them.  
@@ -53,18 +57,18 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 ---
 
 ## 📊 GitHub Stats
-![Heinrictorgau's GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinrictorgau&show_icons=true&theme=tokyonight&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinrictorgau&layout=compact&theme=tokyonight)
+![Heinricitorgau's GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinricitorgau&show_icons=true&theme=tokyonight&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=tokyonight)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=heinrictorgau&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=heinricitorgau&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
 
 ---
 
 ## 🌐 Social Badges
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Heinrici_Torgau-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/heinrictorgau-a85a09383)
-[![GitHub](https://img.shields.io/badge/GitHub-heinrictorgau-lightgrey?logo=github)](https://github.com/heinrictorgau)
-[![Instagram](https://img.shields.io/badge/Instagram-@heinrictorgau-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/heinrictorgau/)
-[![Facebook](https://img.shields.io/badge/Facebook-Heinrici_Torgau-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/heinrictorgau)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Heinrici_Torgau-blue?logo=linkedin&logoColor=white)](https://tw.linkedin.com/in/heinrici-torgau-a85a09383)
+[![GitHub](https://img.shields.io/badge/GitHub-heinricitorgau-lightgrey?logo=github)](https://github.com/heinricitorgau)
+[![Instagram](https://img.shields.io/badge/Instagram-@heinricitorgau-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/heinricitorgau/)
+[![Facebook](https://img.shields.io/badge/Facebook-Heinrici_Torgau-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/heinricitorgau/)
 
 ---
 
@@ -86,9 +90,8 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 
 ---
 
-## 🧾 License & Conduct
-All public repositories are released under the **[MIT License](https://github.com/heinrictorgau/Cybersecurity-Offense-Defense-Anonymity-Lab-Series/blob/main/LICENSE)**.  
-Please follow the **[Contributor Covenant Code of Conduct](https://github.com/heinrictorgau/Cybersecurity-Offense-Defense-Anonymity-Lab-Series/blob/main/CODE_OF_CONDUCT.md)** when contributing.  
+## 🧾 License
+All public repositories are released under the **[MIT License](https://github.com/heinricitorgau/Experimental-C2-Architecture-and-Cyber-Defense-Analysis/blob/main/LICENSE)**.  
 
 ---
 
