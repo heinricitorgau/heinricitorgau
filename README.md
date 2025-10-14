@@ -55,9 +55,18 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 
 ## 📊 GitHub Stats
 
-![Heinrici's GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinricitorgau&show_icons=true&theme=tokyonight&include_all_commits=true&rank_icon=github)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=tokyonight&langs_count=8)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=heinricitorgau&theme=tokyonight&hide_border=false)](https://git.io/streak-stats)
+<div align="center">
+
+  <!-- Main Stats -->
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=heinricitorgau&show_icons=true&theme=tokyonight&include_all_commits=true" />
+
+  <!-- Top Languages -->
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=tokyonight" />
+
+  <!-- Streak Stats -->
+  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com?user=heinricitorgau&theme=tokyonight&hide_border=false" />
+
+</div>
 
 ---
 
