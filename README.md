@@ -123,7 +123,7 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 ## 📫 Contact & Links
 📍 Hsinchu, Taiwan  
 📧 ek2412045@gmail.com  
-🔗 [Google Drive Portfolio](https://drive.google.com/drive/folders/1wRfW2hEyTfO4_nNgEhrgAHP9SuDaUpx)  
+🔗 [Google Drive Portfolio]([https://drive.google.com/drive/folders/1wRfW2hEyTfO4_nNgEhrgAHP9SuDaUpx](https://drive.google.com/drive/folders/1wRfWr2hEyTtO4_nNgEhrgAHP9SuDaUpx))  
 🐙 [GitHub @heinrictorgau](https://github.com/heinrictorgau)
 
 ---
