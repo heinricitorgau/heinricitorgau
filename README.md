@@ -1,9 +1,5 @@
 # 👋 Hi, I'm Heinrici Torgau  
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,50:FF69B4,100:9370DB&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&fontColor=FFFFFF&animation=fadeIn)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=800&color=00BFFF&center=true&vCenter=true&width=420&lines=Cybersecurity%20Researcher;Network%20Defense;Ethical%20Hacker;Tor%20Automation;)](https://git.io/typing-svg)
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,50:FF69B4,100:9370DB&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
