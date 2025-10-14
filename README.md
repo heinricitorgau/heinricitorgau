@@ -2,7 +2,7 @@
 
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&animation=fadeIn)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=500&color=00BFFF&width=435&lines=Cybersecurity+Researcher;Network+Defense+Engineer;Ethical+Hacker;Tor+Automation+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=800&color=6C757D&width=360&center=true&lines=Cybersecurity%20Researcher;Network%20Defense;Ethical%20Hacker;Tor%20Automation)](https://git.io/typing-svg)
 
 🎓 **CSIE student** | 💻 **Cybersecurity & Network Defense Researcher** | 🧠 **Ethical Hacker**  
 I build safe, reproducible attack–defense environments to explore how systems break — and how to protect them.  
