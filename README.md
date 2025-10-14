@@ -29,7 +29,7 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 ---
 
 ## ⚙️ Tech Stack & Tools
-`Python` · `C` · `Bash` · `Linux (Kali, Debian, Parrot)` · `VirtualBox`  
+`Python` · `Bash` · `Linux (Kali, Debian, Parrot)` · `VirtualBox`  
 `Wireshark` · `GStreamer` · `dnsmasq` · `Tor` · `Apache2`  
 `fail2ban` · `auditd` · `Tripwire` · `Rails`  
 
