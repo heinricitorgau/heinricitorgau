@@ -1,8 +1,18 @@
 # 👋 Hi, I'm Heinrici Torgau  
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&animation=fadeIn)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,50:FF69B4,100:9370DB&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&fontColor=FFFFFF&animation=fadeIn)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=800&color=6C757D&width=360&center=true&lines=Cybersecurity%20Researcher;Network%20Defense;Ethical%20Hacker;Tor%20Automation)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=800&color=00BFFF&center=true&vCenter=true&width=420&lines=Cybersecurity%20Researcher;Network%20Defense;Ethical%20Hacker;Tor%20Automation;)](https://git.io/typing-svg)
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,50:FF69B4,100:9370DB&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=800&color=00BFFF,FF69B4,9370DB&center=true&vCenter=true&width=420&lines=Cybersecurity%20Researcher;Network%20Defense;Ethical%20Hacker;Tor%20Automation" alt="Typing SVG" />
+</a>
+
+</div>
 
 🎓 **CSIE student** | 💻 **Cybersecurity & Network Defense Researcher** | 🧠 **Ethical Hacker**  
 I build safe, reproducible attack–defense environments to explore how systems break — and how to protect them.  
