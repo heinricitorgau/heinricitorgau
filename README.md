@@ -78,79 +78,45 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
 
 ---
 
-## 🧰 Languages & Tools (all projects)
+## 🛠 Languages & Tools (badges)
 
-### Languages
+<!-- Languages -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![Rails](https://img.shields.io/badge/Rails-DD0031?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
+![Rails](https://img.shields.io/badge/Rails-C41D1D?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![SQL (SQLite)](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-### Operating Systems & Virtualization
+<!-- OS / VM / Platforms -->
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
-![Parrot OS](https://img.shields.io/badge/Parrot_OS-2B8E2E?style=for-the-badge) 
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A8A?style=for-the-badge&logo=virtualbox&logoColor=white)
 
-### Networking, Proxy & Anonymity
+<!-- Networking / Privacy / Tools -->
 ![Tor](https://img.shields.io/badge/Tor-7E4798?style=for-the-badge&logo=tor-project&logoColor=white)
-![SOCKS5](https://img.shields.io/badge/SOCKS5-6C757D?style=for-the-badge)
-![obfs4 / Bridge](https://img.shields.io/badge/obfs4-obfuscation-6C757D?style=for-the-badge)
-![dnsmasq](https://img.shields.io/badge/dnsmasq-D4D4D4?style=for-the-badge)
-![airbase-ng / aircrack-ng](https://img.shields.io/badge/aircrack--ng-Wireless-6C757D?style=for-the-badge)
-
-### Security / Offensive Tools
-![nmap](https://img.shields.io/badge/nmap-83B32A?style=for-the-badge&logo=nmap&logoColor=white)
-![netcat](https://img.shields.io/badge/Netcat-000000?style=for-the-badge)
-![aircrack-ng](https://img.shields.io/badge/aircrack--ng-wireless-6C757D?style=for-the-badge)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![iptables](https://img.shields.io/badge/iptables-DB4B4B?style=for-the-badge)
-![netstat](https://img.shields.io/badge/netstat-network-6C757D?style=for-the-badge)
+![Nmap](https://img.shields.io/badge/nmap-CC3333?style=for-the-badge&logo=nmap&logoColor=white)
+![aircrack-ng](https://img.shields.io/badge/aircrack--ng-0A0A0A?style=for-the-badge&logo=aircrack-ng&logoColor=white)
+![curl](https://img.shields.io/badge/curl-DAA520?style=for-the-badge&logo=curl&logoColor=white)
 
-### Defensive / Monitoring Tools
-![fail2ban](https://img.shields.io/badge/fail2ban-2563EB?style=for-the-badge)
-![auditd](https://img.shields.io/badge/auditd-system-6C757D?style=for-the-badge)
-![Tripwire](https://img.shields.io/badge/Tripwire-file_integrity-6C757D?style=for-the-badge)
-![rkhunter](https://img.shields.io/badge/rkhunter-rootkit-6C757D?style=for-the-badge)
-![ClamAV](https://img.shields.io/badge/ClamAV-0F9D58?style=for-the-badge&logo=clamav&logoColor=white)
-![logwatch](https://img.shields.io/badge/logwatch-logging-6C757D?style=for-the-badge)
+<!-- Web / Server -->
+![Apache](https://img.shields.io/badge/Apache-CA1F1F?style=for-the-badge&logo=apache&logoColor=white)
+![Passenger](https://img.shields.io/badge/Passenger-5C6A6E?style=for-the-badge&logo=apache%20friends&logoColor=white)
 
-### Development & Web
-![Apache](https://img.shields.io/badge/Apache2-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![Passenger](https://img.shields.io/badge/Passenger-server-6C757D?style=for-the-badge)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![curl](https://img.shields.io/badge/curl-343434?style=for-the-badge&logo=curl&logoColor=white)
-![grep](https://img.shields.io/badge/grep-cli-6C757D?style=for-the-badge)
-![diff](https://img.shields.io/badge/diff-compare-6C757D?style=for-the-badge)
-![tail](https://img.shields.io/badge/tail-log-6C757D?style=for-the-badge)
+<!-- Security / Forensics -->
+![ClamAV](https://img.shields.io/badge/ClamAV-0078D7?style=for-the-badge&logo=clamav&logoColor=white)
+![fail2ban](https://img.shields.io/badge/fail2ban-2C3E50?style=for-the-badge&logo=fail2ban&logoColor=white)
 
-### Python libraries & helpers
-![stem](https://img.shields.io/badge/stem-Tor_ControlPort-6C757D?style=for-the-badge)
-![requests](https://img.shields.io/badge/requests-socks-6C757D?style=for-the-badge&logo=python&logoColor=white)
-![pyfiglet](https://img.shields.io/badge/pyfiglet-ASCII-6C757D?style=for-the-badge)
-![colorama](https://img.shields.io/badge/colorama-terminal-6C757D?style=for-the-badge)
+<!-- Multimedia / Utilities -->
+![ImageMagick](https://img.shields.io/badge/ImageMagick-FF4F00?style=for-the-badge&logo=imagemagick&logoColor=white)
+![scrot](https://img.shields.io/badge/scrot-333333?style=for-the-badge)
+![v4l-utils](https://img.shields.io/badge/v4l--utils-333333?style=for-the-badge)
 
-### C2 / Agent related & OS utilities
-![Python Socket](https://img.shields.io/badge/socket-networking-6C757D?style=for-the-badge)
-![v4l-utils](https://img.shields.io/badge/v4l--utils-webcam-6C757D?style=for-the-badge)
-![scrot](https://img.shields.io/badge/scrot-screenshot-6C757D?style=for-the-badge)
-![ImageMagick](https://img.shields.io/badge/ImageMagick-FF0066?style=for-the-badge&logo=imagemagick&logoColor=white)
-![lsof](https://img.shields.io/badge/lsof-system-6C757D?style=for-the-badge)
-![syslog](https://img.shields.io/badge/syslog-logging-6C757D?style=for-the-badge)
-
-### Analysis & Forensics
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Audit / Logs](https://img.shields.io/badge/Forensics-Logs-6C757D?style=for-the-badge)
-
-### Wireless hardware (note)
-![Wi-Fi adapter](https://img.shields.io/badge/Wi--Fi%20Adapter-Monitor%20Mode-6C757D?style=for-the-badge)
-*(e.g., Realtek RTL88x2BU or other monitor/AP-capable adapters used in lab)*
+<!-- Python libs (represented by Python badge above) -->
+<!-- Specific libraries (stem, requests) are Python packages and are covered by the Python badge. -->
 
 ---
 
