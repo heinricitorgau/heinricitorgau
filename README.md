@@ -69,9 +69,6 @@ A cybersecurity lab series showcasing ethical attack, defense, and anonymity tec
   <!-- Top Languages -->
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=tokyonight" />
 
-  <!-- Streak Stats -->
-  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com?user=heinricitorgau&theme=tokyonight&hide_border=false" />
-
 </div>
 
 ---
