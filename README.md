@@ -9,6 +9,7 @@
 </div>
 
 🎓 **CSIE student** | 💻 **Cybersecurity & Network Defense Researcher** 
+
 I’m a CSIE student, focusing on offensive–defensive simulations, anonymization technologies, and network protection. My research and lab work emphasize **reproducibility and education**, aiming to build safe and ethical cyber attack–defense environments and turn the findings into educational resources and tools.  
 
 > “The RB19 performs average in every aspect — and that’s what makes it great.” — Pierre Waché  
