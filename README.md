@@ -8,8 +8,8 @@
   
 </div>
 
-🎓 **CSIE student** | 💻 **Cybersecurity & Network Defense Researcher** | 🧠 **Ethical Hacker**  
-I build safe, reproducible attack–defense environments to explore how systems break — and how to protect them.  
+🎓 **CSIE student** | 💻 **Cybersecurity & Network Defense Researcher** 
+I’m a CSIE student, focusing on offensive–defensive simulations, anonymization technologies, and network protection. My research and lab work emphasize **reproducibility and education**, aiming to build safe and ethical cyber attack–defense environments and turn the findings into educational resources and tools.  
 
 > “The RB19 performs average in every aspect — and that’s what makes it great.” — Pierre Waché  
 
@@ -135,12 +135,6 @@ A hands-on lab showing how reverse shells and backdoors operate from an attacker
 All public repositories are released under the **[MIT License](https://github.com/heinricitorgau/Experimental-C2-Architecture-and-Cyber-Defense-Analysis/blob/main/LICENSE)**.  
 
 For collaboration, please follow standard open-source etiquette when submitting issues or pull requests.
-
----
-
-⭐ *Build to understand, not to exploit.*
-ob/main/LICENSE)**.  
-Please follow the **[Contributor Covenant Code of Conduct](https://github.com/heinrictorgau/Cybersecurity-Offense-Defense-Anonymity-Lab-Series/blob/main/CODE_OF_CONDUCT.md)** when contributing.  
 
 ---
 
