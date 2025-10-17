@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,50:FF69B4,100:9370DB&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:434343,100:808080&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
 
 </div>
 
