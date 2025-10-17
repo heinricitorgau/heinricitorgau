@@ -21,7 +21,7 @@
 
 ---
 
-## 🔐 Featured Project  
+## 🔐 精選專案  
 ### [Offense-to-Defense: A Kali Linux Guide to Reverse Shells and Backdoors](https://github.com/heinricitorgau/Offense-to-Defense-A-Kali-Linux-Guide-to-Reverse-Shells-and-Backdoors)
 一個示範反向 Shell 與後門運作的實作實驗室，從攻擊者角度出發，讓防守者能以 Kali Linux 研究偵測與防禦方法。  
 
