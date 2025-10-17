@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Heinrici Torgau  
+# 👋 Hi, I'm Gao En-Zai  
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 
 🎓 **CSIE Student** | 💻 **Cybersecurity & Network Defense Researcher**
 
-Hi — I’m **Heinrici Torgau**, a CSIE student researching **offensive-to-defensive cybersecurity**, including reproducible lab environments, C2 behavior analysis, and anonymity automation.  
+Hi — I’m **Gao En-Zai**, a CSIE student researching **offensive-to-defensive cybersecurity**, including reproducible lab environments, C2 behavior analysis, and anonymity automation.  
 I build **hands-on educational labs** using Kali Linux and VirtualBox to help defenders detect, analyze, and mitigate common attack patterns.  
 
 > “The RB19 performs average in every aspect — and that’s what makes it great.” — Pierre Waché  
