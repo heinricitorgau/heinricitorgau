@@ -65,7 +65,8 @@ Misuse is illegal and unethical.
 ## 🧩 Side Projects & Research
 - **C2 Architecture Simulation** — Python socket-based client/server for detection training  
 - **Ghost Mode 3** — Automated Tor ControlPort IP rotation tool for anonymity research  
-- **RailsGoat Patch Analysis** — OWASP Top 10 web exploitation & defense demonstration  
+- **RailsGoat Patch Analysis** — OWASP Top 10 web exploitation & defense demonstration
+- **Fake Wi-Fi Simulation** — Legal phishing lab using airbase-ng, dnsmasq, and Apache2 to demonstrate fake hotspot risks and promote user awareness training.
 
 ---
 
