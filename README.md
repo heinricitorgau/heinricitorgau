@@ -110,9 +110,9 @@ Misuse is illegal and unethical.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="40" height="40" style="margin:4px"/>
 
   <!-- 網路與安全 -->
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nmap.svg" alt="Nmap" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://cdn.simpleicons.org/radar/CC3333" alt="Nmap (radar)" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
   <img src="https://cdn.simpleicons.org/wireshark/1679A7" alt="Wireshark" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Aircrack-ng_logo.svg" alt="Aircrack-ng" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://cdn.simpleicons.org/wifi/000000" alt="Aircrack-ng (Wi-Fi)" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
   <img src="https://cdn.simpleicons.org/torproject/7E4798" alt="Tor Project" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
 
   <!-- Web / 後端 -->
