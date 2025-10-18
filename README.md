@@ -71,20 +71,20 @@ Misuse is illegal and unethical.
 ---
 
 <p align="center">
-  <h3>📊 GitHub Stats</h3>
-  <a href="https://github.com/thakur2309">
-    <img src="https://github-readme-stats.vercel.app/api?username=thakur2309&show_icons=true&theme=radical&count_private=true" alt="Alok Thakur GitHub Stats"/>
+  <h3>📊 GitHub stats</h3>
+  <a href="https://github.com/heinricitorgau">
+    <img src="https://github-readme-stats.vercel.app/api?username=heinricitorgau&show_icons=true&theme=tokyonight&count_private=true" alt="Gao En-Zai GitHub Stats"/>
   </a>
 </p>
 
 <p align="center">
   <h3>💻 Top Languages</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thakur2309&layout=compact&theme=radical" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=tokyonight" alt="Top Languages"/>
 </p>
 
 <p align="center">
   <h3>🔥 GitHub Streak</h3>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=thakur2309&theme=radical" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=heinricitorgau&theme=tokyonight" alt="GitHub Streak"/>
 </p>
 
 ---
