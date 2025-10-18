@@ -110,13 +110,13 @@ Misuse is illegal and unethical.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="40" height="40" style="margin:4px"/>
 
   <!-- 網路與安全 -->
-  <img src="https://cdn.simpleicons.org/nmap/CC3333" alt="Nmap" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
-  <img src="https://cdn.simpleicons.org/wireshark/1679A7" alt="Wireshark" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nmap.svg" alt="Nmap" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Wireshark_Logo.svg" alt="Wireshark" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Aircrack-ng_logo.svg" alt="Aircrack-ng" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tor-logo-2011-flat.svg" alt="Tor Project" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
 
   <!-- Web / 後端 -->
-  <img src="https://cdn.simpleicons.org/apache/CA1F1F" alt="Apache" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Apache_HTTP_server_logo_%282019-present%29.svg" alt="Apache" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="Rails" width="40" height="40" style="margin:4px"/>
