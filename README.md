@@ -95,37 +95,32 @@ Misuse is illegal and unethical.
 
 ---
 
-## 🛠 Languages & Tools (Badges)
+### 🛠 Tools & Frameworks
 
-<!-- Languages -->
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![Rails](https://img.shields.io/badge/Rails-C41D1D?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+<p align="center">
+  <!-- OS / Platform -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" style="margin:6px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/debian/debian-original.svg" alt="debian" width="40" height="40" style="margin:6px"/>
+  <img src="https://www.svgrepo.com/show/373533/kali-linux.svg" alt="kali linux" width="40" height="40" style="margin:6px"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Virtualbox_logo.png" alt="virtualbox" width="40" height="40" style="margin:6px"/>
 
-<!-- OS / VM / Platforms -->
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A8A?style=for-the-badge&logo=virtualbox&logoColor=white)
+  <!-- Programming & Scripting -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" style="margin:6px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40" style="margin:6px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" style="margin:6px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40" style="margin:6px"/>
 
-<!-- Networking / Security Tools -->
-![Tor](https://img.shields.io/badge/Tor-7E4798?style=for-the-badge&logo=tor-project&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-CC3333?style=for-the-badge&logo=nmap&logoColor=white)
-![aircrack-ng](https://img.shields.io/badge/aircrack--ng-0A0A0A?style=for-the-badge&logo=aircrack-ng&logoColor=white)
-![curl](https://img.shields.io/badge/curl-DAA520?style=for-the-badge&logo=curl&logoColor=white)
+  <!-- Frameworks / Libraries -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40" style="margin:6px"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tor-logo-2011-flat.svg" alt="tor" width="40" height="40" style="margin:6px"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Wireshark_Logo.svg" alt="wireshark" width="40" height="40" style="margin:6px"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Apache_HTTP_server_logo_%282019-present%29.svg" alt="apache2" width="40" height="40" style="margin:6px"/>
 
-<!-- Web / Server -->
-![Apache](https://img.shields.io/badge/Apache-CA1F1F?style=for-the-badge&logo=apache&logoColor=white)
-![Passenger](https://img.shields.io/badge/Passenger-5C6A6E?style=for-the-badge&logo=apache%20friends&logoColor=white)
-
-<!-- Security / Forensics -->
-![ClamAV](https://img.shields.io/badge/ClamAV-0078D7?style=for-the-badge&logo=clamav&logoColor=white)
-![fail2ban](https://img.shields.io/badge/fail2ban-2C3E50?style=for-the-badge&logo=fail2ban&logoColor=white)
+  <!-- Version Control & IDE -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40" style="margin:6px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40" style="margin:6px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40" style="margin:6px"/>
+</p>
 
 ---
 
