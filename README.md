@@ -125,7 +125,7 @@ Misuse is illegal and unethical.
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40" style="margin:4px"/>
 </p>
 
-**Other (text listed)**: v4l-utils, scrot, auditd, lsof, syslog, netcat (nc), wget, bash, fail2ban, Tripwire, iptables, Logwatch, grep, diff, tail, Stem (Tor controller), obfs4proxy, dnsmasq, airbase-ng, post.php, logs.txt, USB wireless NIC (monitor/AP mode)
+**Other (text listed)**: v4l-utils, scrot, auditd, lsof, syslog, netcat (nc), wget, bash, fail2ban, Tripwire, iptables, Logwatch, grep, diff, tail, Stem (Tor controller), obfs4proxy, dnsmasq, airbase-ng, post.php, logs.txt, USB wireless NIC (monitor/AP mode), Aircrack-ng
 
 ---
 
