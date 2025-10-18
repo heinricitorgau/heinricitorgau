@@ -100,65 +100,38 @@ Misuse is illegal and unethical.
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/virtualbox/virtualbox-original.svg" alt="virtualbox" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/wireshark.svg" alt="wireshark" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/auditd.svg" alt="auditd" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/imagemagick.svg" alt="imagemagick" width="40" height="40" style="margin:4px"/>
-</p>
-
-### - Tools & Frameworks
-
-<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kali/kali-original.svg" alt="kali" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nmap/nmap-original.svg" alt="nmap" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/netcat/netcat-original.svg" alt="netcat" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/curl/curl-original.svg" alt="curl" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fail2ban.svg" alt="fail2ban" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wireshark/wireshark-original.svg" alt="wireshark" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/wireshark.svg" alt="wireshark" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/virtualbox/virtualbox-original.svg" alt="virtualbox" width="40" height="40" style="margin:4px"/>
-</p>
-
-### - Tools & Frameworks
-
-<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="sqlite" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/passenger/passenger-original.svg" alt="passenger" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/curl/curl-original.svg" alt="curl" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grep/grep-original.svg" alt="grep" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/wireshark.svg" alt="wireshark" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40" style="margin:4px"/>
-</p>
-
-### - Tools & Frameworks
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/torproject.svg" alt="tor" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/simpleicons.svg" alt="stem" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/torproject.svg" alt="torproject" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/requests.svg" alt="requests" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/obfs4.svg" alt="obfs4" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/curl/curl-original.svg" alt="curl" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/virtualbox/virtualbox-original.svg" alt="virtualbox" width="40" height="40" style="margin:4px"/>
-</p>
-
-### - Tools & Frameworks
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kali/kali-original.svg" alt="kali" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/aircrack-ng.svg" alt="aircrack-ng" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/dnsmasq.svg" alt="dnsmasq" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original-wordmark.svg" alt="apache2" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original-wordmark.svg" alt="apache" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/virtualbox/virtualbox-original.svg" alt="virtualbox" width="40" height="40" style="margin:4px"/>
 </p>
+
+**Etc(Text listed)**：`v4l-utils`, `scrot`, `auditd`, `lsof`, `syslog`, `netcat (nc)`, `wget`, `bash` 、`fail2ban`, `tripwire`, `iptables`, `logwatch`, `grep`, `diff`, `tail`, `Wireshark`, `stem`, `obfs4proxy`, `airbase-ng`, `post.php`, `logs.txt`, `USB wireless NIC (monitor/AP mode)`
 
 ---
 
