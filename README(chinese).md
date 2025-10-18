@@ -86,37 +86,37 @@
 
 ---
 
-## 🛠 語言與工具（徽章）
+### - 工具和框架
 
-<!-- Languages -->
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![Rails](https://img.shields.io/badge/Rails-C41D1D?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+<p align="center">
+  <!-- 系統與平台 -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40" style="margin:4px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="Debian" width="40" height="40" style="margin:4px"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg" alt="Kali Linux" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="VirtualBox" width="40" height="40" style="margin:4px"/>
 
-<!-- OS / VM / Platforms -->
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A8A?style=for-the-badge&logo=virtualbox&logoColor=white)
+  <!-- 語言與開發 -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="Ruby" width="40" height="40" style="margin:4px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="40" height="40" style="margin:4px"/>
 
-<!-- Networking / Security Tools -->
-![Tor](https://img.shields.io/badge/Tor-7E4798?style=for-the-badge&logo=tor-project&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-CC3333?style=for-the-badge&logo=nmap&logoColor=white)
-![aircrack-ng](https://img.shields.io/badge/aircrack--ng-0A0A0A?style=for-the-badge&logo=aircrack-ng&logoColor=white)
-![curl](https://img.shields.io/badge/curl-DAA520?style=for-the-badge&logo=curl&logoColor=white)
+  <!-- 網路與安全 -->
+  <img src="https://cdn.simpleicons.org/radar/CC3333" alt="Nmap (radar)" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://cdn.simpleicons.org/wireshark/1679A7" alt="Wireshark" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
+  <img src="https://cdn.simpleicons.org/torproject/7E4798" alt="Tor Project" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
 
-<!-- Web / Server -->
-![Apache](https://img.shields.io/badge/Apache-CA1F1F?style=for-the-badge&logo=apache&logoColor=white)
-![Passenger](https://img.shields.io/badge/Passenger-5C6A6E?style=for-the-badge&logo=apache%20friends&logoColor=white)
+  <!-- Web / 後端 -->
+  <img src="https://cdn.simpleicons.org/apache/CA1F1F" alt="Apache" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="Rails" width="40" height="40" style="margin:4px"/>
 
-<!-- Security / Forensics -->
-![ClamAV](https://img.shields.io/badge/ClamAV-0078D7?style=for-the-badge&logo=clamav&logoColor=white)
-![fail2ban](https://img.shields.io/badge/fail2ban-2C3E50?style=for-the-badge&logo=fail2ban&logoColor=white)
+  <!-- 工具與版本控制 -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40" style="margin:4px"/>
+</p>
+
+**其他（文字列出)**: v4l-utils, scrot, auditd, lsof, syslog, netcat (nc), wget, bash, fail2ban, Tripwire, iptables, Logwatch, grep, diff, tail, Stem (Tor controller), obfs4proxy, dnsmasq, airbase-ng, post.php, logs.txt, USB wireless NIC (monitor/AP mode), Aircrack-ng
 
 ---
 
