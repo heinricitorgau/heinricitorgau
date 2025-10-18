@@ -116,7 +116,7 @@ Misuse is illegal and unethical.
   <img src="https://cdn.simpleicons.org/torproject/7E4798" alt="Tor Project" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
 
   <!-- Web / 後端 -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Apache_HTTP_server_logo_%282019-present%29.svg" alt="Apache" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://cdn.simpleicons.org/apache/CA1F1F" alt="Apache" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="40" height="40" style="margin:4px"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="Rails" width="40" height="40" style="margin:4px"/>
