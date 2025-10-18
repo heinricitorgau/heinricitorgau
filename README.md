@@ -99,32 +99,32 @@ Misuse is illegal and unethical.
 
 <p align="center">
   <!-- 系統與平台 -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40" style="margin:4px"/>  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="Debian" width="40" height="40" style="margin:4px"/>  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg" alt="Kali Linux" width="40" height="40" style="margin:4px"/>  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="VirtualBox" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40" style="margin:4px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="Debian" width="40" height="40" style="margin:4px"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg" alt="Kali Linux" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="VirtualBox" width="40" height="40" style="margin:4px"/>
 
   <!-- 語言與開發 -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" style="margin:4px"/>  
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="Ruby" width="40" height="40" style="margin:4px"/>  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="Ruby" width="40" height="40" style="margin:4px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="40" height="40" style="margin:4px"/>
 
   <!-- 網路與安全 -->
-  <img src="https://cdn.simpleicons.org/nmap/CC3333" alt="Nmap" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
-  <img src="https://cdn.simpleicons.org/wireshark/1679A7" alt="Wireshark" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
-  <img src="https://cdn.simpleicons.org/aircrackng/0A0A0A" alt="Aircrack-ng" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
-  <img src="https://cdn.simpleicons.org/torproject/7E4798" alt="Tor Project" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
+  <img src="https://cdn.simpleicons.org/nmap/CC3333" alt="Nmap" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://cdn.simpleicons.org/wireshark/1679A7" alt="Wireshark" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Aircrack-ng_logo.svg" alt="Aircrack-ng" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tor-logo-2011-flat.svg" alt="Tor Project" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
 
   <!-- Web / 後端 -->
-  <img src="https://cdn.simpleicons.org/apache/CA1F1F" alt="Apache" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40" style="margin:4px"/>  
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="40" height="40" style="margin:4px"/>  
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="Rails" width="40" height="40" style="margin:4px"/>  
+  <img src="https://cdn.simpleicons.org/apache/CA1F1F" alt="Apache" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="Rails" width="40" height="40" style="margin:4px"/>
 
   <!-- 工具與版本控制 -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40" style="margin:4px"/>  
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="40" height="40" style="margin:4px"/>  
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="40" height="40" style="margin:4px"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40" style="margin:4px"/>
 </p>
 
 **Other (text listed)**: v4l-utils, scrot, auditd, lsof, syslog, netcat (nc), wget, bash, fail2ban, Tripwire, iptables, Logwatch, grep, diff, tail, Stem (Tor controller), obfs4proxy, dnsmasq, airbase-ng, post.php, logs.txt, USB wireless NIC (monitor/AP mode)
