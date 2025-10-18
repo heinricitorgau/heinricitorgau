@@ -98,32 +98,35 @@ Misuse is illegal and unethical.
 ### - Tools & Frameworks
 
 <p align="center">
-  <!-- Row 1: core platforms & languages -->
-  <img src="https://img.shields.io/badge/Linux-OS-%23111?style=for-the-badge&logo=linux&logoColor=white" alt="linux" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/Python-3.x-%23FFD43B?style=for-the-badge&logo=python&logoColor=black" alt="python" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/Ruby-+Rails-%23CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="ruby rails" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/VirtualBox-VM-%23183A8A?style=for-the-badge&logo=virtualbox&logoColor=white" alt="virtualbox" style="margin:4px"/>
+  <!-- 系統與平台 -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kali/kali-original.svg" alt="kali" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/virtualbox/virtualbox-original.svg" alt="virtualbox" width="40" height="40" style="margin:4px"/>  
 
-  <!-- Row 2: networking & analysis -->
-  <img src="https://img.shields.io/badge/Network-Nmap-%23CC3333?style=for-the-badge&logo=nmap&logoColor=white" alt="nmap" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/Packet-Wireshark-%231679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="wireshark" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/Tor-Anonymity-%237E4798?style=for-the-badge&logo=torproject&logoColor=white" alt="tor" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/Netcat-nc-%23FF6A00?style=for-the-badge&logo=gnubash&logoColor=white" alt="netcat" style="margin:4px"/>
+  <!-- 語言與開發 -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40" style="margin:4px"/>  
 
-  <!-- Row 3: web / infra -->
-  <img src="https://img.shields.io/badge/Apache-Web-%23DB6A36?style=for-the-badge&logo=apache&logoColor=white" alt="apache" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/PHP-Server-%237777BB?style=for-the-badge&logo=php&logoColor=white" alt="php" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/SQLite-DB-%23003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="sqlite" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/Curl-HTTP-%23DAA520?style=for-the-badge&logo=curl&logoColor=white" alt="curl" style="margin:4px"/>
+  <!-- 網路與安全 -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nmap/nmap-original.svg" alt="nmap" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wireshark/wireshark-original.svg" alt="wireshark" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aircrack-ng/aircrack-ng-original.svg" alt="aircrack-ng" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/torproject/torproject-original.svg" alt="torproject" width="40" height="40" style="margin:4px"/>  
 
-  <!-- Row 4: pentest / wireless -->
-  <img src="https://img.shields.io/badge/Kali-KaliLinux-%23557C94?style=for-the-badge" alt="kali" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/aircrack--ng-Wireless-%23000?style=for-the-badge&logo=aircrack-ng&logoColor=white" alt="aircrack-ng" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/DNS-DNSMasq-%2333AADD?style=for-the-badge" alt="dnsmasq" style="margin:4px"/>
-  <img src="https://img.shields.io/badge/Git-VCS-%232A2F45?style=for-the-badge&logo=git&logoColor=white" alt="git" style="margin:4px"/>
+  <!-- Web / 後端 -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" alt="apache" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="sqlite" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40" style="margin:4px"/>  
+
+  <!-- 工具與版本控制 -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40" style="margin:4px"/>  
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40" style="margin:4px"/>  
 </p>
 
-**Other (text listed)**: v4l-utils, scrot, auditd, lsof, syslog, netcat (nc), wget, bash, fail2ban, Tripwire, iptables, Logwatch, grep, diff, tail, Wireshark, Stem (Tor controller), obfs4proxy, airbase-ng, post.php, logs.txt, USB wireless NIC (monitor/AP mode)
+**Other (text listed)**: v4l-utils, scrot, auditd, lsof, syslog, netcat (nc), wget, bash, fail2ban, Tripwire, iptables, Logwatch, grep, diff, tail, Stem (Tor controller), obfs4proxy, dnsmasq, airbase-ng, post.php, logs.txt, USB wireless NIC (monitor/AP mode)
 
 ---
 
