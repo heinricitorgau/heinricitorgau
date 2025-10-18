@@ -144,4 +144,8 @@ Contributions are welcome! Please follow standard open-source etiquette when sub
 
 ---
 
+<h2 align="center">🤝 Support</h2>
+<p align="center">🎀 Contributions, 🔥 issues, and 🥮 feature requests are most welcome!</p>
+<p align="center">💙 If you like my projects, Give them ⭐ and Share it with friends!</p>
+
 ### ⭐ “Build to understand, not to exploit.”
