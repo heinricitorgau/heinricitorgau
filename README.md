@@ -100,24 +100,23 @@ Misuse is illegal and unethical.
   <!-- OS / Platform -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="debian" width="48" height="48" style="margin:8px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash" width="48" height="48" style="margin:8px;"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg" alt="kali linux" width="48" height="48" style="margin:8px;"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="virtualbox" width="48" height="48" style="margin:8px;"/>
 
   <!-- Programming & Scripting -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="48" height="48" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="ruby" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" alt="rails" width="48" height="48" style="margin:8px;"/>
 
   <!-- Security & Network -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tor-logo-2011-flat.svg" alt="tor" width="48" height="48" style="margin:8px;"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Wireshark_Logo.svg" alt="wireshark" width="48" height="48" style="margin:8px;"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Apache_HTTP_server_logo_%282019-present%29.svg" alt="apache2" width="48" height="48" style="margin:8px;"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/torproject.svg" alt="tor" width="48" height="48" style="margin:8px;"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/wireshark.svg" alt="wireshark" width="48" height="48" style="margin:8px;"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/apache.svg" alt="apache2" width="48" height="48" style="margin:8px;"/>
 
   <!-- Version Control / Editor -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="48" height="48" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="48" height="48" style="margin:8px;"/>
 </p>
 
