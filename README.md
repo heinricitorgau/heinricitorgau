@@ -84,7 +84,7 @@ Misuse is illegal and unethical.
 
 <p align="center">
   <h3>🔥 GitHub Streak</h3>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=heinricitorgau&theme=tokyonight" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=heinricitorgau&theme=tokyonight" alt="GitHub Streak"/>
 </p>
 
 ---
