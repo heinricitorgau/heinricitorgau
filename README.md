@@ -1,6 +1,6 @@
-# 👋 Hi, I’m Gao En-Zai  
+#  Hi, I’m Gao En-Zai  
 
-🎓 **CSIE Student** | 💻 **Cybersecurity Learning & Practice**
+**CSIE Student** | **Cybersecurity Learning & Practice**
 
 Hi — I’m **Gao En-Zai**, a CSIE undergraduate student learning cybersecurity through hands-on practice.
 
@@ -11,7 +11,7 @@ Most of my projects are built as learning labs using Kali Linux and VirtualBox, 
 
 ---
 
-## 🔐 Featured Project  
+## Featured Project  
 ### [Offense-to-Defense: A Kali Linux Guide to Reverse Shells and Backdoors](https://github.com/heinricitorgau/Offense-to-Defense-A-Kali-Linux-Guide-to-Reverse-Shells-and-Backdoors)
 
 A beginner-friendly lab that demonstrates how reverse shells and simple backdoors work, with notes on what defenders might observe.
@@ -23,7 +23,7 @@ A beginner-friendly lab that demonstrates how reverse shells and simple backdoor
 
 ---
 
-## 🧠 Learning Interests
+## Learning Interests
 - Basic ethical hacking concepts  
 - Reverse shells and simple backdoor behavior  
 - Introductory C2 communication models  
@@ -32,26 +32,26 @@ A beginner-friendly lab that demonstrates how reverse shells and simple backdoor
 
 ---
 
-## ⚖️ Ethics & Legal Notice
+## Ethics & Legal Notice
 All projects are for educational purposes only.  
 Only test systems you own or have explicit permission to use.
 
 ---
 
-## ⚙️ Tools & Environment
+## Tools & Environment
 `Python` · `Bash` · `Linux (Kali, Debian)` · `VirtualBox`  
 `Wireshark` · `Tor` · `Apache2`
 
 ---
 
-## 🌱 Current Learning Goals
+## Current Learning Goals
 - Strengthen Linux and networking fundamentals  
 - Improve lab documentation and clarity  
 - Learn how basic attack behaviors are detected  
 
 ---
 
-## 🧩 Practice Projects
+## Practice Projects
 - **Simple C2 Simulation** — socket-based client/server practice  
 - **Tor IP Rotation Script** — ControlPort automation exercise  
 - **RailsGoat Practice Notes** — OWASP Top 10 learning records  
@@ -59,12 +59,12 @@ Only test systems you own or have explicit permission to use.
 
 ---
 
-## 🧾 License
+## License
 All repositories are released under the MIT License.
 
 ---
 
-## 📫 Contact
-📍 Hsinchu, Taiwan  
-📧 ek2412045@gmail.com  
-🐙 GitHub: https://github.com/heinricitorgau
+## Contact
+Hsinchu, Taiwan  
+ek2412045@gmail.com  
+GitHub: https://github.com/heinricitorgau
