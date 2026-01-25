@@ -1,151 +1,71 @@
-# 👋 Hi, I'm Gao En-Zai  
+# 👋 Hi, I’m Gao En-Zai  
 
-<div align="center">
+🎓 **CSIE Student** | 💻 **Cybersecurity & Network Defense (Hands-on Learning)**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:434343,100:808080&height=100&section=header&text=Cybersecurity%20Researcher&fontSize=30&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
+Hi — I’m **Gao En-Zai**, a CSIE student interested in practical cybersecurity, especially understanding how common attacks work and how they can be detected or mitigated from a defender’s perspective.
 
-</div>
-
-🎓 **CSIE Student** | 💻 **Cybersecurity & Network Defense Researcher**
-
-Hi — I’m **Gao En-Zai**, a CSIE student researching **offensive-to-defensive cybersecurity**, including reproducible lab environments, C2 behavior analysis, and anonymity automation.  
-I build **hands-on educational labs** using Kali Linux and VirtualBox to help defenders detect, analyze, and mitigate common attack patterns.  
+Most of my work focuses on building reproducible lab environments using Kali Linux and VirtualBox.  
+Through hands-on experiments, I explore topics such as reverse shells, basic C2 behavior, anonymity tools, and defensive monitoring — mainly for learning, documentation, and teaching purposes.
 
 > “The RB19 performs average in every aspect — and that’s what makes it great.” — Pierre Waché  
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=heinricitorgau&color=blue)
-![GitHub Followers](https://img.shields.io/github/followers/heinricitorgau?style=social)
-![GitHub Stars](https://img.shields.io/github/stars/heinricitorgau?style=social)
-
----
-
 ## 🔐 Featured Project  
 ### [Offense-to-Defense: A Kali Linux Guide to Reverse Shells and Backdoors](https://github.com/heinricitorgau/Offense-to-Defense-A-Kali-Linux-Guide-to-Reverse-Shells-and-Backdoors)
-A hands-on lab demonstrating how reverse shells and backdoors work from an attacker’s view, enabling defenders to study **detection and mitigation** using Kali Linux.  
 
-**Quick Start:**  
-1. Clone the repo  
-2. Run `setup_lab.sh` in your VM  
-3. Follow the guide for each lab stage  
+A step-by-step lab that demonstrates how reverse shells and simple backdoors operate in a controlled environment, with the goal of helping learners understand what to look for on the defensive side.
+
+**Quick Start**
+1. Clone the repository  
+2. Run `setup_lab.sh` inside a VM  
+3. Follow the guide for each experiment  
 
 ---
 
-## 🧠 Research Focus
-- Ethical penetration testing & red-team simulation  
-- Reverse shell exploitation and defense validation  
-- Automated anonymity (Tor + SOCKS5 + obfs4)  
-- Command-and-Control (C2) detection & behavior analysis  
-- Secure coding and vulnerability patching (RailsGoat project)  
+## 🧠 Learning & Research Interests
+- Ethical penetration testing (educational labs only)  
+- Reverse shell behavior and basic detection ideas  
+- Command-and-Control (C2) traffic observation  
+- Anonymity tools (Tor, SOCKS5) and their limitations  
+- Secure coding practices and vulnerability patching  
 
 ---
 
 ## ⚖️ Ethics & Legal Notice
-All repositories and demonstrations are **for educational and authorized research use only**.  
-Never use these tools against systems you do not own or lack permission to test.  
-Misuse is illegal and unethical.
+All repositories and experiments are intended strictly for educational and authorized use.  
+Do not apply these techniques to systems you do not own or have permission to test.  
+Misuse may be illegal and unethical.
 
 ---
 
-## ⚙️ Tech Stack & Tools
+## ⚙️ Tools & Environment
 `Python` · `Bash` · `Linux (Kali, Debian, Parrot)` · `VirtualBox`  
-`Wireshark` · `GStreamer` · `dnsmasq` · `Tor` · `Apache2`  
+`Wireshark` · `dnsmasq` · `Tor` · `Apache2`  
 `fail2ban` · `auditd` · `Tripwire` · `Rails`
 
 ---
 
 ## 🌱 Current Goals
-- Build a full **educational cybersecurity series** combining offense, defense, and anonymity  
-- Publish open-source **ethical hacking lab tutorials**  
-- Expand **Tor-based IP rotation automation** with ML-based traffic analysis  
+- Organize my labs into a clear learning path for beginners  
+- Improve documentation and reproducibility  
+- Explore simple traffic analysis and logging for defensive awareness  
 
 ---
 
-## 🧩 Side Projects & Research
-- **C2 Architecture Simulation** — Python socket-based client/server for detection training  
-- **Ghost Mode 3** — Automated Tor ControlPort IP rotation tool for anonymity research  
-- **RailsGoat Patch Analysis** — OWASP Top 10 web exploitation & defense demonstration
-- **Fake Wi-Fi Simulation** — Legal phishing lab using airbase-ng, dnsmasq, and Apache2 to demonstrate fake hotspot risks and promote user awareness training.
-
----
-
-<p align="center">
-  <h3>📊 GitHub stats</h3>
-  <a href="https://github.com/heinricitorgau">
-    <img src="https://github-readme-stats.vercel.app/api?username=heinricitorgau&show_icons=true&theme=tokyonight&count_private=true" alt="Gao En-Zai GitHub Stats"/>
-  </a>
-</p>
-
-<p align="center">
-  <h3>💻 Top Languages</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=tokyonight" alt="Top Languages"/>
-</p>
-
-<p align="center">
-  <h3>🔥 GitHub Streak</h3>
-  <img src="https://streak-stats.demolab.com?user=heinricitorgau&theme=tokyonight" alt="GitHub Streak"/>
-</p>
-
----
-
-## 🌐 Professional Links
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Heinrici_Torgau-blue?logo=linkedin&logoColor=white)](https://tw.linkedin.com/in/heinrici-torgau-a85a09383)
-[![GitHub](https://img.shields.io/badge/GitHub-heinricitorgau-lightgrey?logo=github)](https://github.com/heinricitorgau)
-
----
-
-### - Tools & Frameworks
-
-<p align="center">
-  <!-- 系統與平台 -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40" style="margin:4px"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="Debian" width="40" height="40" style="margin:4px"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg" alt="Kali Linux" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="VirtualBox" width="40" height="40" style="margin:4px"/>
-
-  <!-- 語言與開發 -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="Ruby" width="40" height="40" style="margin:4px"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="40" height="40" style="margin:4px"/>
-
-  <!-- 網路與安全 -->
-  <img src="https://cdn.simpleicons.org/radar/CC3333" alt="Nmap (radar)" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
-  <img src="https://cdn.simpleicons.org/wireshark/1679A7" alt="Wireshark" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
-  <img src="https://cdn.simpleicons.org/torproject/7E4798" alt="Tor Project" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>
-
-  <!-- Web / 後端 -->
-  <img src="https://cdn.simpleicons.org/apache/CA1F1F" alt="Apache" width="40" height="40" style="margin:4px;background:white;border-radius:6px;padding:2px;"/>  
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="Rails" width="40" height="40" style="margin:4px"/>
-
-  <!-- 工具與版本控制 -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40" style="margin:4px"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40" style="margin:4px"/>
-</p>
-
-**Other (text listed)**: v4l-utils, scrot, auditd, lsof, syslog, netcat (nc), wget, bash, fail2ban, Tripwire, iptables, Logwatch, grep, diff, tail, Stem (Tor controller), obfs4proxy, dnsmasq, airbase-ng, post.php, logs.txt, USB wireless NIC (monitor/AP mode), Aircrack-ng
-
----
-
-## 📫 Contact & Links
-📍 Hsinchu, Taiwan  
-📧 ek2412045@gmail.com  
-🔗 [Google Drive Portfolio](https://drive.google.com/drive/folders/1wRfWr2hEyTtO4_nNgEhrgAHP9SuDaUpx)  
-🐙 [GitHub @heinricitorgau](https://github.com/heinricitorgau)
+## 🧩 Side Projects
+- **C2 Architecture Simulation** — basic socket-based client/server for learning detection concepts  
+- **Ghost Mode 3** — Tor ControlPort IP rotation experiment  
+- **RailsGoat Notes** — OWASP Top 10 exploitation and patch observations  
+- **Fake Wi-Fi Lab** — controlled demonstration of rogue AP risks for user awareness  
 
 ---
 
 ## 🧾 License & Contribution
-All repositories are released under the **[MIT License](https://github.com/heinricitorgau/Experimental-C2-Architecture-and-Cyber-Defense-Analysis/blob/main/LICENSE)**.  
-
-Contributions are welcome! Please follow standard open-source etiquette when submitting issues or pull requests.
+All repositories are released under the MIT License.  
+Suggestions, issues, and pull requests are welcome — especially improvements to documentation or lab clarity.
 
 ---
 
-<h2 align="center">🤝 Support</h2>
-<p align="center">🎀 Contributions, 🔥 issues, and 🥮 feature requests are most welcome!</p>
-<p align="center">💙 If you like my projects, Give them ⭐ and Share it with friends!</p>
-
-### ⭐ “Build to understand, not to exploit.”
+### ⭐ Motto
+**“Build to understand, not to exploit.”**
