@@ -42,7 +42,7 @@ Instead of treating tools as black boxes, I focus on:
 
 ## Tools & Environment
 
-- **Languages:** Python, Bash  
+- **Languages:** Python, Bash, HTML, Ruby, php  
 - **Systems:** Linux (Debian-based)  
 - **Virtualization:** VirtualBox  
 - **Networking & Analysis:** Wireshark  
