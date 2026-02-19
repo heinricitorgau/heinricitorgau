@@ -59,5 +59,5 @@ on systems I own and/or isolated environments.
 ## Contact
 
 📍 Hsinchu, Taiwan  
-📧 ek2412045@gmail.com  
+📧 :ek2412045@gmail.com  
 GitHub: https://github.com/heinricitorgau
