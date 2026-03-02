@@ -21,16 +21,33 @@ jobs:
           filename: github-metrics.svg
 
           # 風格（你目前用 algolia，我這邊選 dark+clean；你要完全一致我也能幫你調）
-          template: classic
+          template: terminal
 
-          # 顯示內容（可依你喜好增減）
+          # Telemetry-style minimal dashboard
           base: header, activity
+
+          # Languages telemetry
           plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_wakatime: yes
+          plugin_languages_details: lines, percentage
+          plugin_languages_limit: 6
+
+          # Coding intensity (heatmap telemetry)
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
+
+          # Commit streak + performance metrics
+          plugin_streak: yes
+          plugin_streak_sections: current, longest
+
+          # Lines of code radar
+          plugin_lines: yes
+
+          # Repository traffic telemetry
+          plugin_traffic: yes
+
+          # Achievements (like race badges)
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
 
           # 直接 commit 結果回 repo（不靠外部服務）
           output_action: commit
