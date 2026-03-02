@@ -2,11 +2,11 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 每天 UTC 00:00 跑一次
-  workflow_dispatch:      # 允許手動執行
+    - cron: "0 0 * * *"   # Daily at UTC 00:00
+  workflow_dispatch:
 
 permissions:
-  contents: write         # 允許把生成的 SVG commit 回 repo
+  contents: write
 
 jobs:
   github-metrics:
@@ -17,13 +17,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-          # 輸出檔名（會 commit 回 repo 根目錄）
           filename: github-metrics.svg
-
-          # 風格（你目前用 algolia，我這邊選 dark+clean；你要完全一致我也能幫你調）
           template: terminal
 
-          # Conservative, stable configuration (avoid optional sub-parameters)
+          # Conservative, stable configuration
           base: header, activity
 
           plugin_languages: yes
@@ -33,6 +30,5 @@ jobs:
           plugin_traffic: yes
           plugin_achievements: yes
 
-          # 直接 commit 結果回 repo（不靠外部服務）
           output_action: commit
           committer_message: "chore: update metrics"
