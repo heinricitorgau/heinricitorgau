@@ -9,10 +9,19 @@ I usually learn by building **small, controlled, reproducible labs**—focusing 
 
 ---
 
-![GitHub Metrics](./github-metrics.svg)
+### 🏎️ Telemetry Panel
 
-<!-- Optional: split views (uncomment if you also generate a second SVG) -->
-<!-- ![Languages](./github-metrics-languages.svg) -->
+> **Status:** Live data, generated daily by GitHub Actions (no external API dependencies)
+
+![GitHub Telemetry](./github-metrics.svg)
+
+**Legend (Pit-wall view):**
+- **Pace** = recent activity / consistency (commits & contributions)
+- **Stints** = work rhythm (habits)
+- **Track map** = yearly intensity (isocalendar)
+- **Power unit** = code volume signals (lines)
+- **Aero balance** = language distribution (languages)
+- **Race control** = repo traffic & badges (traffic / achievements)
 
 ---
 
