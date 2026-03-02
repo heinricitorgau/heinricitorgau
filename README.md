@@ -1,84 +1,70 @@
-# Hi, I’m KAO,EN-TSAI
+# KAO, EN‑TSAI
 
 **Computer Science Undergraduate**  
-**Systems · Networking · Security-minded Engineering**
-
-I’m an undergraduate Computer Science student interested in **systems, networking, and security-oriented engineering**.
-
-I usually learn by building **small, controlled, reproducible labs**—focusing on how systems communicate, how behaviors become observable at the OS / network level, and how we can reason about them from a defensive perspective.
+Systems · Networking · Linux · Observability
 
 ---
 
-### System Observability Console
+## Profile
 
-> Mode: Stable  
-> Update cycle: Daily (GitHub Actions, self-generated)  
-> Dependency: None (no external API)
+Undergraduate Computer Science student focused on **Linux systems, engineering discipline, and consistent technical output**.
+
+I approach software development through controlled experimentation, reproducible environments, and observable system behavior. My primary interest lies in understanding how systems operate under constraints and how stability can be maintained over time.
+
+---
+
+## Core Competencies
+
+- **Linux System Operation** – CLI proficiency, environment control, process awareness  
+- **Engineering Discipline** – structured workflow, automation, reproducibility  
+- **Stable Output** – long‑term consistency in development and contribution patterns  
+- **Networking Fundamentals** – socket communication, protocol awareness  
+- **System Observability** – activity analysis, signal interpretation, behavior tracking
+
+---
+
+## Engineering Activity Overview
+
+> Data generated daily via GitHub Actions (self‑hosted, no external API dependency)
 
 ![System Metrics](./github-metrics.svg)
 
----
-
-**Signal Mapping**
-
-- Activity → consistency & execution discipline  
-- Habits → work rhythm stability  
-- Isocalendar → long-term contribution distribution  
-- Lines → code volume characteristics  
-- Languages → implementation profile  
-- Traffic & Achievements → repository interaction signals
+This dashboard reflects execution consistency, contribution distribution, implementation profile, and repository interaction signals.
 
 ---
 
-## Featured Project
+## Selected Project
 
 ### Automated University Admission Requirements Analyzer
-A work-in-progress personal project under active development.  
-Details regarding design, methodology, and implementation are intentionally withheld at this stage.
 
-> Further disclosure will be made after the project reaches completion.
+Personal engineering project under active development.
 
----
+The project focuses on structured data extraction, controlled parsing logic, and disciplined automation workflows.
 
-## Technical Focus Areas
-
-- Linux system fundamentals  
-- Networking and socket-based communication  
-- Process behavior and system observability  
-- Security awareness through controlled experimentation  
-- Practical automation with Python / Bash  
+Detailed system design and methodology will be disclosed upon completion.
 
 ---
 
-## Learning Philosophy
+## Technical Environment
 
-I learn best by building **minimal, testable systems** and studying their behavior.
-
-Instead of treating tools as black boxes, I focus on:
-- understanding *why* something happens  
-- identifying *where* it becomes observable  
-- documenting *how* it can be constrained or mitigated  
+**Languages:** Python, Bash, HTML, Ruby, PHP  
+**Systems:** Linux (Debian-based)  
+**Virtualization:** VirtualBox  
+**Analysis Tools:** Wireshark
 
 ---
 
-## Tools & Environment
+## Engineering Philosophy
 
-- **Languages:** Python, Bash, HTML, Ruby, php  
-- **Systems:** Linux (Debian-based)  
-- **Virtualization:** VirtualBox  
-- **Networking & Analysis:** Wireshark  
-
----
-
-## Ethics & Usage Notice
-
-All experiments and projects are conducted for **educational and research purposes** only,  
-on systems I own and/or isolated environments.
+- Build minimal, testable systems  
+- Prefer observability over assumption  
+- Prioritize stability over complexity  
+- Maintain consistent execution over time
 
 ---
 
 ## Contact
 
 📍 Hsinchu, Taiwan  
-📧 :ek2412045@gmail.com  
+📧 ek2412045@gmail.com  
 GitHub: https://github.com/heinricitorgau
