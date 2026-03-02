@@ -1,14 +1,3 @@
-# My GitHub Statistics
-<p align="left">
-<a href="https://github.com/heinricitorgau">
-	<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=heinricitorgau&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-	<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=algolia"/>
-</a>
-</p>
-
-# My Programming Languages
-Python · Bash · HTML · Ruby · PHP
-
 # Hi, I’m KAO,EN-TSAI
 
 **Computer Science Undergraduate**  
@@ -17,6 +6,15 @@ Python · Bash · HTML · Ruby · PHP
 I’m an undergraduate Computer Science student interested in **systems, networking, and security-oriented engineering**.
 
 I usually learn by building **small, controlled, reproducible labs**—focusing on how systems communicate, how behaviors become observable at the OS / network level, and how we can reason about them from a defensive perspective.
+
+---
+
+<p align="left">
+<a href="https://github.com/heinricitorgau">
+	<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=heinricitorgau&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+	<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=algolia"/>
+</a>
+</p>
 
 ---
 
