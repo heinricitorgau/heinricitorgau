@@ -9,19 +9,25 @@ I usually learn by building **small, controlled, reproducible labs**—focusing 
 
 ---
 
-### 🏎️ Telemetry Panel
+### 🏁 Telemetry — Pit Wall Dashboard
 
-> **Status:** Live data, generated daily by GitHub Actions (no external API dependencies)
+> **Mode:** Live telemetry  
+> **Source:** GitHub Actions (self-hosted generation, no external dependencies)  
+> **Update Cycle:** Daily (UTC 00:00)
+> ⚙️ Engineering focus: systems observability · signal analysis · controlled experimentation
 
 ![GitHub Telemetry](./github-metrics.svg)
 
-**Legend (Pit-wall view):**
-- **Pace** = recent activity / consistency (commits & contributions)
-- **Stints** = work rhythm (habits)
-- **Track map** = yearly intensity (isocalendar)
-- **Power unit** = code volume signals (lines)
-- **Aero balance** = language distribution (languages)
-- **Race control** = repo traffic & badges (traffic / achievements)
+---
+
+#### 📊 Telemetry Mapping (Race Control Legend)
+
+- **Pace** → Contribution intensity & commit frequency  
+- **Stint Pattern** → Work rhythm & habit cycles  
+- **Track Map** → Yearly activity heat distribution  
+- **Power Unit Output** → Code volume signals (lines changed)  
+- **Aero Balance** → Language distribution profile  
+- **Race Control Signals** → Repository traffic & achievement markers
 
 ---
 
