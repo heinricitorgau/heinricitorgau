@@ -11,9 +11,13 @@ I usually learn by building **small, controlled, reproducible labs**—focusing 
 
 <p align="left">
 <a href="https://github.com/heinricitorgau">
-	<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=heinricitorgau&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_rank=true&hide_border=false&number_format=long"/>
-	<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=algolia&hide_border=false&langs_count=8"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=heinricitorgau&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&cache_seconds=1800"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heinricitorgau&layout=compact&theme=algolia&cache_seconds=1800"/>
 </a>
+</p>
+
+<p align="left">
+  <img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=heinricitorgau&theme=algolia"/>
 </p>
 
 ---
