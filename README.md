@@ -9,6 +9,13 @@ I usually learn by building **small, controlled, reproducible labs**—focusing 
 
 ---
 
+![GitHub Metrics](./github-metrics.svg)
+
+<!-- Optional: split views (uncomment if you also generate a second SVG) -->
+<!-- ![Languages](./github-metrics-languages.svg) -->
+
+---
+
 ## Featured Project
 
 ### Automated University Admission Requirements Analyzer
