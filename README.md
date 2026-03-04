@@ -29,8 +29,6 @@ I approach software development through controlled experimentation, reproducible
 
 ![System Metrics](./github-metrics.svg)
 
-This dashboard reflects execution consistency, contribution distribution, implementation profile, and repository interaction signals.
-
 ---
 
 ## Selected Project
@@ -47,8 +45,8 @@ Detailed system design and methodology will be disclosed upon completion.
 
 ## Technical Environment
 
-**Languages:** Python, Bash, HTML, Ruby, PHP  
-**Systems:** Linux (Debian-based)  
+**Languages:** Python, C, Java, Bash, HTML, Ruby, PHP 
+**Systems:** Debian, Kali-Linux, Parrot os, Ubuntu...  
 **Virtualization:** VirtualBox  
 **Analysis Tools:** Wireshark
 
