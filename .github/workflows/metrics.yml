@@ -20,7 +20,9 @@ jobs:
           filename: github-metrics.svg
 
           # Base sections (header includes your GitHub bio / intro)
-          base: header, activity, community, repositories
+          base: header, metadata, activity, community, repositories
+          config_display: large
+          config_timezone: Taiwan/HsinChu
 
           # Language distribution
           plugin_languages: yes
