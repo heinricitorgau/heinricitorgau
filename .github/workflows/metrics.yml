@@ -32,17 +32,17 @@ jobs:
           # Contribution calendar
           plugin_isocalendar: yes
 
-          # Work habits
-          plugin_habits: yes
+          # (Disabled for reliability) Work habits
+          # plugin_habits: yes
 
-          # Code line statistics
+          # (Optional) Code line statistics
           plugin_lines: yes
 
-          # Repository traffic
-          plugin_traffic: yes
+          # (Disabled for reliability) Repository traffic
+          # plugin_traffic: yes
 
-          # Achievements
-          plugin_achievements: yes
+          # (Disabled for reliability) Achievements
+          # plugin_achievements: yes
 
           output_action: commit
           committer_message: "chore: update github metrics dashboard"
