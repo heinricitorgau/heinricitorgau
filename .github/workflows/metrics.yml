@@ -22,7 +22,7 @@ jobs:
           # Base sections (header will show your GitHub profile bio as the introduction)
           base: header, activity, community, repositories
 
-          # Self‑introduction block (renders profile introduction directly in the dashboard)
+          # Self-introduction block
           plugin_introduction: yes
           plugin_introduction_title: About me
 
