@@ -1,42 +1,10 @@
-name: Metrics
+# KAO, EN‑TSAI
 
-on:
-  schedule:
-    - cron: "0 0 * * *"   # Daily at UTC 00:00
-  workflow_dispatch:
-  push:
-    paths:
-      - ".github/workflows/metrics.yml"
+> This profile uses an automatically generated engineering dashboard.
+> All profile information, activity signals, and statistics are rendered by **GitHub Metrics** via GitHub Actions.
 
-concurrency:
-  group: metrics
-  cancel-in-progress: true
+![Engineering Dashboard](./github-metrics.svg)
 
-permissions:
-  contents: write
+---
 
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Generate github-metrics.svg
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-          filename: github-metrics.svg
-          template: terminal
-
-          # Conservative, stable configuration
-          base: header, activity
-
-          plugin_languages: yes
-          plugin_isocalendar: yes
-          plugin_habits: yes
-          plugin_lines: yes
-          plugin_traffic: yes
-          plugin_achievements: yes
-
-          output_action: commit
-          committer_message: "chore: update metrics"
+*Data generated automatically by `.github/workflows/metrics.yml`*
