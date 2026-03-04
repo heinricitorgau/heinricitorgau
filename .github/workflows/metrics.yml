@@ -19,6 +19,9 @@ jobs:
 
           filename: github-metrics.svg
 
+          # Ubuntu terminal-style rendering
+          template: terminal
+
           # Base sections (header will show your GitHub profile bio as the introduction)
           base: header, activity, community, repositories
 
