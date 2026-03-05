@@ -21,9 +21,11 @@ jobs:
 
           # Ubuntu terminal-style rendering
           template: terminal
-          # Render full terminal window (avoid cropped view)
+
+          # Render in a larger layout and add safe padding so the SVG viewBox
+          # doesn't clip the terminal frame/content on GitHub.
           config_display: large
-          config_padding: 20
+          config_padding: 8%, 12%
 
           # Base sections (header will show your GitHub profile bio as the introduction)
           base: header, activity, community, repositories
