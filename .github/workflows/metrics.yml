@@ -25,7 +25,8 @@ jobs:
           # Render in a larger layout and add safe padding so the SVG viewBox
           # doesn't clip the terminal frame/content on GitHub.
           config_display: large
-          config_padding: 8%, 12%
+          # Increase safe margins so the terminal frame and bottom content are not clipped
+          config_padding: 14%, 16%
 
           # Base sections (header will show your GitHub profile bio as the introduction)
           base: header, activity, community, repositories
