@@ -45,17 +45,26 @@ jobs:
           # Contribution calendar
           plugin_isocalendar: yes
 
-          # (Disabled for reliability) Work habits
-          # plugin_habits: yes
+          # Work habits (coding rhythm statistics)
+          plugin_habits: yes
 
           # (Optional) Code line statistics
           plugin_lines: yes
 
-          # (Disabled for reliability) Repository traffic
-          # plugin_traffic: yes
+          # Followers and stars statistics
+          plugin_followup: yes
 
-          # (Disabled for reliability) Achievements
-          # plugin_achievements: yes
+          # Display most used topics from repositories
+          plugin_topics: yes
+
+          # Show starred repositories summary
+          plugin_stars: yes
+
+          # Repository traffic (views & clones)
+          plugin_traffic: yes
+
+          # GitHub achievements
+          plugin_achievements: yes
 
           output_action: commit
           committer_message: "chore: update github metrics dashboard"
