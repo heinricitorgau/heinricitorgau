@@ -16,18 +16,21 @@ jobs:
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          user: heinricitorgau
+          plugins_errors_fatal: yes
 
           filename: github-metrics.svg
 
           # Ubuntu terminal-style rendering
           template: terminal
+          config_timezone: Asia/Taipei
 
           # Render in a larger layout and add safe padding so the SVG viewBox
           # doesn't clip the terminal frame/content on GitHub.
           config_display: large
           # Increase safe margins so the terminal frame and bottom content are not clipped
           # Extra vertical padding to prevent bottom of terminal (ncal output) from being clipped
-          config_padding: 22%, 16%
+          config_padding: 26%, 18%
 
           # Base sections (header will show your GitHub profile bio as the introduction)
           base: header, activity, community, repositories
