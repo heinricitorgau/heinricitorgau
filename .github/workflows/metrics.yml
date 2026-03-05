@@ -2,8 +2,15 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # run daily
+    - cron: "0 0 * * *" # Daily (UTC)
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/metrics.yml"
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -11,60 +18,51 @@ permissions:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Generate GitHub metrics
+      - name: Generate GitHub metrics (clean engineer dashboard)
         uses: lowlighter/metrics@v3.34
         with:
+          # Use the built-in token (safe default)
           token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Explicit user for deterministic output
           user: heinricitorgau
+
+          # If any plugin fails, fail the workflow (do NOT commit a broken/incorrect SVG)
           plugins_errors_fatal: yes
 
+          # Output
           filename: github-metrics.svg
 
-          # Ubuntu terminal-style rendering
+          # Terminal look (Ubuntu-like)
           template: terminal
           config_timezone: Asia/Taipei
-
-          # Render in a larger layout and add safe padding so the SVG viewBox
-          # doesn't clip the terminal frame/content on GitHub.
           config_display: large
-          # Increase safe margins so the terminal frame and bottom content are not clipped
-          # Extra vertical padding to prevent bottom of terminal (ncal output) from being clipped
-          config_padding: 26%, 18%
+          # Extra margins to prevent GitHub README clipping
+          config_padding: 24%, 18%
 
-          # Base sections (header will show your GitHub profile bio as the introduction)
-          base: header, activity, community, repositories
+          # Keep it minimal and signal-focused
+          base: header, activity, community
 
-          # Self-introduction block
+          # Self-introduction (pulls from your GitHub profile bio)
           plugin_introduction: yes
           plugin_introduction_title: About me
 
-          # Language distribution
-          plugin_languages: yes
-
-          # Contribution calendar
+          # Stable, high-signal modules
           plugin_isocalendar: yes
-
-          # Work habits (coding rhythm statistics)
-          plugin_habits: yes
-
-          # (Optional) Code line statistics
+          plugin_languages: yes
           plugin_lines: yes
 
-          # Followers and stars statistics
-          plugin_followup: yes
+          # --- Disabled (intentionally) ---
+          # These are commonly noisy, permission-sensitive, or error-prone in profiles.
+          # plugin_habits: yes
+          # plugin_traffic: yes
+          # plugin_achievements: yes
+          # plugin_topics: yes
+          # plugin_stars: yes
+          # plugin_followup: yes
 
-          # Display most used topics from repositories
-          plugin_topics: yes
-
-          # Show starred repositories summary
-          plugin_stars: yes
-
-          # Repository traffic (views & clones)
-          plugin_traffic: yes
-
-          # GitHub achievements
-          plugin_achievements: yes
-
+          # Commit the generated SVG back to the repo
           output_action: commit
           committer_message: "chore: update github metrics dashboard"
