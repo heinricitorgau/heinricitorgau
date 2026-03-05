@@ -21,6 +21,9 @@ jobs:
 
           # Ubuntu terminal-style rendering
           template: terminal
+          # Render full terminal window (avoid cropped view)
+          config_display: large
+          config_padding: 20
 
           # Base sections (header will show your GitHub profile bio as the introduction)
           base: header, activity, community, repositories
