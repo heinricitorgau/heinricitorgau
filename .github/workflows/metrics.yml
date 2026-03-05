@@ -26,7 +26,8 @@ jobs:
           # doesn't clip the terminal frame/content on GitHub.
           config_display: large
           # Increase safe margins so the terminal frame and bottom content are not clipped
-          config_padding: 14%, 16%
+          # Extra vertical padding to prevent bottom of terminal (ncal output) from being clipped
+          config_padding: 22%, 16%
 
           # Base sections (header will show your GitHub profile bio as the introduction)
           base: header, activity, community, repositories
