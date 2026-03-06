@@ -36,7 +36,13 @@ jobs:
           config_padding: 18%, 14%
 
           # Only keep one core signal: activity
-          base: activity
+          base: activity, repositories
+
+          # Show a small, representative repository section
+          plugin_repositories: yes
+          plugin_repositories_featured: heinricitorgau/heinricitorgau
+          plugin_repositories_order: featured, pinned
+          plugin_repositories_pinned: 2
 
           # No extra plugins for maximum reliability and minimalism
           # plugin_isocalendar: yes
