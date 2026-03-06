@@ -18,7 +18,7 @@ permissions:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: Generate GitHub metrics (minimal engineer dashboard)
         uses: lowlighter/metrics@v3.34
@@ -38,11 +38,11 @@ jobs:
           # Only keep one core signal: activity
           base: activity, repositories
 
-          # Show a small, representative repository section
+          # Show one small, representative repository section
           plugin_repositories: yes
-          plugin_repositories_featured: heinricitorgau/heinricitorgau,heinricitorgau/Automated-University-Admission-Requirements-Analyzer,heinricitorgau/Offense-to-Defense-A-Kali-Linux-Guide-to-Reverse-Shell-and-Backdoors
+          plugin_repositories_featured: heinricitorgau/heinricitorgau
           plugin_repositories_order: featured, pinned
-          plugin_repositories_pinned: 2
+          plugin_repositories_pinned: 1
 
           # No extra plugins for maximum reliability and minimalism
           # plugin_isocalendar: yes
