@@ -2,7 +2,7 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Daily (UTC)
+    - cron: "0 * * * *" # Every hour (UTC)
   workflow_dispatch:
   push:
     paths:
