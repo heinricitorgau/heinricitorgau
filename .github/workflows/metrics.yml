@@ -7,6 +7,9 @@ on:
   push:
     paths:
       - ".github/workflows/metrics.yml"
+  pull_request:
+    paths:
+      - ".github/workflows/metrics.yml"
 
 concurrency:
   group: metrics-${{ github.ref }}
@@ -23,14 +26,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Load profile.txt
-        id: profile
-        run: |
-          PROFILE=$(sed ':a;N;$!ba;s/\n/\\n/g' github/profile.txt)
-          echo "PROFILE_TEXT=$PROFILE" >> $GITHUB_ENV
-
       - name: Generate GitHub metrics (minimal engineer dashboard)
-        uses: lowlighter/metrics@v3.34
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: heinricitorgau
@@ -47,10 +44,9 @@ jobs:
           # Minimal engineer dashboard with intro + activity
           base: header, activity, repositories
 
-          # Self-introduction block (content loaded from profile.txt)
+          # Self-introduction block
           plugin_introduction: yes
           plugin_introduction_title: whoami
-          plugin_introduction_body: ${{ env.PROFILE_TEXT }}
 
           # Show one small, representative repository section
           plugin_repositories: yes
