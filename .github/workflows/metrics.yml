@@ -24,51 +24,52 @@ jobs:
 
           profile_lines = Path("profile.txt").read_text(encoding="utf-8").splitlines()
 
+          raw_text = Path("profile.txt").read_text(encoding="utf-8")
+          file_size = len(raw_text.encode("utf-8"))
+
           lines = []
-          lines.append("heinricitorgau@testdeMacBook-Air:~$ pwd")
-          lines.append("/Users/heinricitorgau")
+          lines.append("heinricitorgau@ubuntu:~$ ls")
+          lines.append("dashboard.svg  profile.txt")
           lines.append("")
-          lines.append("heinricitorgau@testdeMacBook-Air:~$ ls")
-          lines.append("profile.txt  dashboard.svg")
-          lines.append("")
-          lines.append("heinricitorgau@testdeMacBook-Air:~$ cat profile.txt")
+          lines.append("heinricitorgau@ubuntu:~$ cat profile.txt")
           lines.append("")
           lines.extend(profile_lines)
           lines.append("")
-          lines.append("heinricitorgau@testdeMacBook-Air:~$ stat profile.txt")
+          lines.append("heinricitorgau@ubuntu:~$ stat profile.txt")
           lines.append("  File: profile.txt")
+          lines.append(f"  Size: {file_size} bytes")
           lines.append("  Type: regular file")
-          lines.append(f"  Size: {len(Path('profile.txt').read_text(encoding='utf-8'))} bytes")
           lines.append("  Access: (0644/-rw-r--r--)")
           lines.append("")
-          lines.append("heinricitorgau@testdeMacBook-Air:~$ echo $EDITOR")
-          lines.append("vim")
+          lines.append("heinricitorgau@ubuntu:~$ _")
 
-          width = 1280
-          padding_x = 48
-          top_y = 86
-          line_h = 29
-          font_size = 17
-          card_radius = 16
-          titlebar_h = 34
+          width = 1240
+          padding_x = 44
+          top_y = 88
+          line_h = 28
+          font_size = 18
+          card_radius = 14
+          titlebar_h = 36
 
           content_height = len(lines) * line_h
-          height = top_y + content_height + 56
+          height = top_y + content_height + 52
 
           svg_lines = []
-          y = top_y + 6
+          y = top_y + 4
 
           for line in lines:
               safe = html.escape(line)
               if line == "":
                   y += line_h
                   continue
-              if line.startswith("heinricitorgau@testdeMacBook-Air"):
+              if line.startswith("heinricitorgau@ubuntu"):
                   css_class = "prompt"
-              elif line.startswith("/") or line.startswith("profile.txt  ") or line.startswith("vim"):
+              elif line.startswith("dashboard.svg"):
                   css_class = "output"
-              elif line.startswith("  File:") or line.startswith("  Type:") or line.startswith("  Size:") or line.startswith("  Access:"):
+              elif line.startswith("  File:") or line.startswith("  Size:") or line.startswith("  Type:") or line.startswith("  Access:"):
                   css_class = "meta"
+              elif line == "_":
+                  css_class = "cursor"
               else:
                   css_class = "line"
               svg_lines.append(
@@ -81,11 +82,12 @@ jobs:
               .bg {{ fill: #0d1117; }}
               .card {{ fill: #300a24; stroke: #5e2750; stroke-width: 1; }}
               .title {{ fill: #f6f5f4; font: 700 19px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }}
-              .path {{ fill: #d3c6cf; font: 500 12px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }}
+              .path {{ fill: #d8cad2; font: 500 12px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }}
               .prompt {{ fill: #8ae234; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
               .line {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
               .output {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .meta {{ fill: #cfcfcf; font: {font_size - 1}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
+              .meta {{ fill: #c7c7c7; font: {font_size - 1}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
+              .cursor {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
               .dot-red {{ fill: #ff6159; }}
               .dot-yellow {{ fill: #ffbd2e; }}
               .dot-green {{ fill: #28c840; }}
@@ -98,7 +100,7 @@ jobs:
             <circle class="dot-red" cx="52" cy="41" r="6"/>
             <circle class="dot-yellow" cx="74" cy="41" r="6"/>
             <circle class="dot-green" cx="96" cy="41" r="6"/>
-            <text x="130" y="35" class="path">heinricitorgau@testdeMacBook-Air: ~/profile.txt</text>
+            <text x="130" y="35" class="path">heinricitorgau@ubuntu: ~/profile.txt</text>
             <text x="130" y="52" class="title">Terminal</text>
             <line x1="24" y1="66" x2="{width - 24}" y2="66" class="divider"/>
             {''.join(svg_lines)}
