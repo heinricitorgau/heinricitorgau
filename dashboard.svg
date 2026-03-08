@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1164" viewBox="0 0 1100 1164" role="img" aria-label="Engineer dashboard">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1198" viewBox="0 0 1180 1198" role="img" aria-label="Engineer dashboard">
   <style>
     .bg { fill: #0d1117; }
     .card { fill: #0b1220; stroke: #30363d; stroke-width: 1; }
     .title { fill: #c9d1d9; font: 600 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .path { fill: #8b949e; font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .prompt { fill: #7ee787; font: 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; }
     .line { fill: #c9d1d9; font: 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; }
     .dot-red { fill: #ff5f57; }
@@ -10,12 +11,13 @@
     .dot-green { fill: #28c840; }
     .divider { stroke: #21262d; stroke-width: 1; }
   </style>
-  <rect class="bg" x="0" y="0" width="1100" height="1164" rx="0" ry="0"/>
-  <rect class="card" x="24" y="20" width="1052" height="1124" rx="18" ry="18"/>
+  <rect class="bg" x="0" y="0" width="1180" height="1198" rx="0" ry="0"/>
+  <rect class="card" x="24" y="20" width="1132" height="1158" rx="20" ry="20"/>
   <circle class="dot-red" cx="52" cy="41" r="6"/>
   <circle class="dot-yellow" cx="74" cy="41" r="6"/>
   <circle class="dot-green" cx="96" cy="41" r="6"/>
-  <text x="130" y="47" class="title">engineer-dashboard / profile.txt</text>
-  <line x1="24" y1="62" x2="1076" y2="62" class="divider"/>
-  <text x="42" y="66" class="prompt">heinricitorgau@dashboard:~$ cat profile.txt</text><text x="42" y="126" class="line">test@testdeMacBook-Air Desktop$ whoami</text><text x="42" y="156" class="line">KAO, EN-TSAI</text><text x="42" y="216" class="line">test@testdeMacBook-Air Desktop$ role</text><text x="42" y="246" class="line">Computer Science student</text><text x="42" y="306" class="line">test@testdeMacBook-Air Desktop$ focus</text><text x="42" y="336" class="line">Linux</text><text x="42" y="366" class="line">Reverse engineering</text><text x="42" y="396" class="line">Automation</text><text x="42" y="426" class="line">Data engineering</text><text x="42" y="456" class="line">AI / ML</text><text x="42" y="516" class="line">test@testdeMacBook-Air Desktop$ currently</text><text x="42" y="546" class="line">Studying computer science</text><text x="42" y="576" class="line">Learning Linux internals</text><text x="42" y="636" class="line">test@testdeMacBook-Air Desktop$ engineering_style</text><text x="42" y="666" class="line">Disciplined engineering</text><text x="42" y="726" class="line">test@testdeMacBook-Air Desktop$ projects</text><text x="42" y="756" class="line">Experimental-C2-Architecture-and-Cyber-Defense-Analysis</text><text x="42" y="786" class="line">Automated-University-Admission-Requirements-Analyzer</text><text x="42" y="816" class="line">Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy</text><text x="42" y="876" class="line">test@testdeMacBook-Air Desktop$ interest</text><text x="42" y="906" class="line">F1 enthusiast</text><text x="42" y="966" class="prompt">heinricitorgau@dashboard:~$ status</text><text x="42" y="996" class="line">dashboard_mode=engineer_terminal</text><text x="42" y="1026" class="line">source=profile.txt</text><text x="42" y="1056" class="line">render=svg</text><text x="42" y="1086" class="line">state=stable</text>
+  <text x="130" y="36" class="path">~/project/profile.txt</text>
+  <text x="130" y="54" class="title">engineer-dashboard</text>
+  <line x1="24" y1="66" x2="1156" y2="66" class="divider"/>
+  <text x="48" y="94" class="prompt">heinricitorgau@dashboard:~$ cat profile.txt</text><text x="48" y="154" class="line">test@testdeMacBook-Air Desktop$ whoami</text><text x="48" y="184" class="line">KAO, EN-TSAI</text><text x="48" y="244" class="line">test@testdeMacBook-Air Desktop$ role</text><text x="48" y="274" class="line">Computer Science student</text><text x="48" y="334" class="line">test@testdeMacBook-Air Desktop$ focus</text><text x="48" y="364" class="line">Linux</text><text x="48" y="394" class="line">Reverse engineering</text><text x="48" y="424" class="line">Automation</text><text x="48" y="454" class="line">Data engineering</text><text x="48" y="484" class="line">AI / ML</text><text x="48" y="544" class="line">test@testdeMacBook-Air Desktop$ currently</text><text x="48" y="574" class="line">Studying computer science</text><text x="48" y="604" class="line">Learning Linux internals</text><text x="48" y="664" class="line">test@testdeMacBook-Air Desktop$ engineering_style</text><text x="48" y="694" class="line">Disciplined engineering</text><text x="48" y="754" class="line">test@testdeMacBook-Air Desktop$ projects</text><text x="48" y="784" class="line">Experimental-C2-Architecture-and-Cyber-Defense-Analysis</text><text x="48" y="814" class="line">Automated-University-Admission-Requirements-Analyzer</text><text x="48" y="844" class="line">Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy</text><text x="48" y="904" class="line">test@testdeMacBook-Air Desktop$ interest</text><text x="48" y="934" class="line">F1 enthusiast</text><text x="48" y="994" class="prompt">heinricitorgau@dashboard:~$ system status</text><text x="48" y="1024" class="line">dashboard_mode ........ engineer_terminal</text><text x="48" y="1054" class="line">input_source .......... profile.txt</text><text x="48" y="1084" class="line">render_target ......... dashboard.svg</text><text x="48" y="1114" class="line">pipeline_state ........ stable</text>
 </svg>
