@@ -27,7 +27,11 @@ jobs:
           lines = []
           lines.append("heinricitorgau@ubuntu:~$ cat profile.txt")
           lines.append("")
-          lines.extend(profile_lines)
+          for line in profile_lines:
+              if line.startswith("$ "):
+                  lines.append(f"heinricitorgau@ubuntu:~{line}")
+              else:
+                  lines.append(line)
           lines.append("")
           lines.append("heinricitorgau@ubuntu:~$ ")
 
@@ -57,7 +61,7 @@ jobs:
                       f'<text x="{padding_x + 188}" y="{y}" class="prompt-symbol">$</text>'
                       f'<rect x="{padding_x + 201}" y="{y - 11}" width="8" height="14" class="cursor-block"/>'
                   )
-              elif line.startswith("heinricitorgau@ubuntu:~$"):
+              elif line.startswith("heinricitorgau@ubuntu:~$") or line.startswith("heinricitorgau@ubuntu:~$ "):
                   command = safe.split("$ ", 1)[1] if "$ " in safe else ""
                   svg_lines.append(
                       f'<text x="{padding_x}" y="{y}" class="prompt-user">heinricitorgau@ubuntu</text>'
