@@ -1,23 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="1204" viewBox="0 0 1220 1204" role="img" aria-label="Engineer dashboard">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1418" viewBox="0 0 1280 1418" role="img" aria-label="Engineer dashboard">
   <style>
     .bg { fill: #0d1117; }
-    .card { fill: #300a24; stroke: #4a2140; stroke-width: 1; }
-    .title { fill: #f6f5f4; font: 700 18px ui-monospace, 'Ubuntu Mono', Menlo, Consolas, monospace; }
-    .path { fill: #c0b7bc; font: 500 14px ui-monospace, 'Ubuntu Mono', Menlo, Consolas, monospace; }
-    .prompt { fill: #8ae234; font: 18px ui-monospace, 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }
-    .line { fill: #eeeeec; font: 18px ui-monospace, 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }
+    .card { fill: #300a24; stroke: #5e2750; stroke-width: 1; }
+    .title { fill: #f6f5f4; font: 700 19px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }
+    .path { fill: #d3c6cf; font: 500 12px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }
+    .prompt { fill: #8ae234; font: 17px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }
+    .line { fill: #eeeeec; font: 17px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }
+    .output { fill: #eeeeec; font: 17px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }
+    .meta { fill: #cfcfcf; font: 16px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }
     .dot-red { fill: #ff6159; }
     .dot-yellow { fill: #ffbd2e; }
     .dot-green { fill: #28c840; }
-    .divider { stroke: #4a2140; stroke-width: 1; }
+    .divider { stroke: #5e2750; stroke-width: 1; }
   </style>
-  <rect class="bg" x="0" y="0" width="1220" height="1204" rx="0" ry="0"/>
-  <rect class="card" x="24" y="20" width="1172" height="1164" rx="20" ry="20"/>
+  <rect class="bg" x="0" y="0" width="1280" height="1418" rx="0" ry="0"/>
+  <rect class="card" x="24" y="20" width="1232" height="1378" rx="16" ry="16"/>
+  <rect x="24" y="20" width="1232" height="34" fill="#3c0f2f" rx="16" ry="16"/>
+  <rect x="24" y="20" width="1232" height="34" fill="none" stroke="#5e2750" stroke-width="1" rx="16" ry="16"/>
   <circle class="dot-red" cx="52" cy="41" r="6"/>
   <circle class="dot-yellow" cx="74" cy="41" r="6"/>
   <circle class="dot-green" cx="96" cy="41" r="6"/>
-  <text x="130" y="36" class="path">heinricitorgau@testdeMacBook-Air: ~/profile.txt</text>
-  <text x="130" y="54" class="title">Terminal</text>
-  <line x1="24" y1="66" x2="1196" y2="66" class="divider"/>
-  <text x="48" y="100" class="prompt">heinricitorgau@testdeMacBook-Air:~$ cat profile.txt</text><text x="48" y="160" class="line">$ whoami</text><text x="48" y="190" class="line">KAO, EN-TSAI</text><text x="48" y="250" class="line">$ role</text><text x="48" y="280" class="line">Computer Science student</text><text x="48" y="340" class="line">$ focus</text><text x="48" y="370" class="line">Linux</text><text x="48" y="400" class="line">Reverse engineering</text><text x="48" y="430" class="line">Automation</text><text x="48" y="460" class="line">Data engineering</text><text x="48" y="490" class="line">AI / ML</text><text x="48" y="550" class="line">$ currently</text><text x="48" y="580" class="line">Studying computer science</text><text x="48" y="610" class="line">Learning Linux internals</text><text x="48" y="670" class="line">$ engineering_style</text><text x="48" y="700" class="line">Disciplined engineering</text><text x="48" y="760" class="line">$ projects</text><text x="48" y="790" class="line">Experimental-C2-Architecture-and-Cyber-Defense-Analysis</text><text x="48" y="820" class="line">Automated-University-Admission-Requirements-Analyzer</text><text x="48" y="850" class="line">Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy</text><text x="48" y="910" class="line">$ interest</text><text x="48" y="940" class="line">F1 enthusiast</text><text x="48" y="1000" class="prompt">heinricitorgau@testdeMacBook-Air:~$ system status</text><text x="48" y="1030" class="line">dashboard_mode ........ engineer_terminal</text><text x="48" y="1060" class="line">input_source .......... profile.txt</text><text x="48" y="1090" class="line">render_target ......... dashboard.svg</text><text x="48" y="1120" class="line">pipeline_state ........ stable</text>
+  <text x="130" y="35" class="path">heinricitorgau@testdeMacBook-Air: ~/profile.txt</text>
+  <text x="130" y="52" class="title">Terminal</text>
+  <line x1="24" y1="66" x2="1256" y2="66" class="divider"/>
+  <text x="48" y="92" class="prompt">heinricitorgau@testdeMacBook-Air:~$ pwd</text><text x="48" y="121" class="output">/Users/heinricitorgau</text><text x="48" y="179" class="prompt">heinricitorgau@testdeMacBook-Air:~$ ls</text><text x="48" y="208" class="output">profile.txt  dashboard.svg</text><text x="48" y="266" class="prompt">heinricitorgau@testdeMacBook-Air:~$ cat profile.txt</text><text x="48" y="324" class="line">$ whoami</text><text x="48" y="353" class="line">KAO, EN-TSAI</text><text x="48" y="411" class="line">$ role</text><text x="48" y="440" class="line">Computer Science student</text><text x="48" y="498" class="line">$ focus</text><text x="48" y="527" class="line">Linux</text><text x="48" y="556" class="line">Reverse engineering</text><text x="48" y="585" class="line">Automation</text><text x="48" y="614" class="line">Data engineering</text><text x="48" y="643" class="line">AI / ML</text><text x="48" y="701" class="line">$ currently</text><text x="48" y="730" class="line">Studying computer science</text><text x="48" y="759" class="line">Learning Linux internals</text><text x="48" y="817" class="line">$ engineering_style</text><text x="48" y="846" class="line">Disciplined engineering</text><text x="48" y="904" class="line">$ projects</text><text x="48" y="933" class="line">Experimental-C2-Architecture-and-Cyber-Defense-Analysis</text><text x="48" y="962" class="line">Automated-University-Admission-Requirements-Analyzer</text><text x="48" y="991" class="line">Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy</text><text x="48" y="1049" class="line">$ interest</text><text x="48" y="1078" class="line">F1 enthusiast</text><text x="48" y="1136" class="prompt">heinricitorgau@testdeMacBook-Air:~$ stat profile.txt</text><text x="48" y="1165" class="meta">  File: profile.txt</text><text x="48" y="1194" class="meta">  Type: regular file</text><text x="48" y="1223" class="meta">  Size: 461 bytes</text><text x="48" y="1252" class="meta">  Access: (0644/-rw-r--r--)</text><text x="48" y="1310" class="prompt">heinricitorgau@testdeMacBook-Air:~$ echo $EDITOR</text><text x="48" y="1339" class="output">vim</text>
 </svg>
