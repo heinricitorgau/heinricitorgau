@@ -1,20 +1,27 @@
+$ whoami
 KAO, EN-TSAI
+
+$ role
 Computer Science student
 
-Focus
-Linux / Reverse engineering / Automation / Data engineering / AI
+$ focus
+Linux
+Reverse engineering
+Automation
+Data engineering
+AI / ML
 
-Currently
+$ currently
 Studying computer science
 Learning Linux internals
 
-Engineering
+$ engineering_style
 Disciplined engineering
 
-Projects
+$ projects
 Experimental-C2-Architecture-and-Cyber-Defense-Analysis
 Automated-University-Admission-Requirements-Analyzer
 Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy
 
-Interest
+$ interest
 F1 enthusiast
