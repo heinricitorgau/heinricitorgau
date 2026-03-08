@@ -29,31 +29,31 @@ jobs:
           lines.append("")
           lines.extend(profile_lines)
           lines.append("")
-          lines.append("heinricitorgau@dashboard:~$ status")
-          lines.append("dashboard_mode=engineer_terminal")
-          lines.append("source=profile.txt")
-          lines.append("render=svg")
-          lines.append("state=stable")
+          lines.append("heinricitorgau@dashboard:~$ system status")
+          lines.append("dashboard_mode ........ engineer_terminal")
+          lines.append("input_source .......... profile.txt")
+          lines.append("render_target ......... dashboard.svg")
+          lines.append("pipeline_state ........ stable")
 
-          width = 1100
-          padding_x = 42
-          top_y = 54
+          width = 1180
+          padding_x = 48
+          top_y = 78
           line_h = 30
           font_size = 17
-          card_radius = 18
+          card_radius = 20
 
           content_height = len(lines) * line_h
-          height = top_y + content_height + 60
+          height = top_y + content_height + 70
 
           svg_lines = []
-          y = top_y + 12
+          y = top_y + 16
 
           for line in lines:
               safe = html.escape(line)
-              css_class = "prompt" if line.startswith("heinricitorgau@dashboard") else "line"
               if line == "":
                   y += line_h
                   continue
+              css_class = "prompt" if line.startswith("heinricitorgau@dashboard") else "line"
               svg_lines.append(
                   f'<text x="{padding_x}" y="{y}" class="{css_class}">{safe}</text>'
               )
@@ -64,6 +64,7 @@ jobs:
               .bg {{ fill: #0d1117; }}
               .card {{ fill: #0b1220; stroke: #30363d; stroke-width: 1; }}
               .title {{ fill: #c9d1d9; font: 600 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+              .path {{ fill: #8b949e; font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
               .prompt {{ fill: #7ee787; font: {font_size}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; }}
               .line {{ fill: #c9d1d9; font: {font_size}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; }}
               .dot-red {{ fill: #ff5f57; }}
@@ -76,8 +77,9 @@ jobs:
             <circle class="dot-red" cx="52" cy="41" r="6"/>
             <circle class="dot-yellow" cx="74" cy="41" r="6"/>
             <circle class="dot-green" cx="96" cy="41" r="6"/>
-            <text x="130" y="47" class="title">engineer-dashboard / profile.txt</text>
-            <line x1="24" y1="62" x2="{width - 24}" y2="62" class="divider"/>
+            <text x="130" y="36" class="path">~/project/profile.txt</text>
+            <text x="130" y="54" class="title">engineer-dashboard</text>
+            <line x1="24" y1="66" x2="{width - 24}" y2="66" class="divider"/>
             {''.join(svg_lines)}
           </svg>'''
 
