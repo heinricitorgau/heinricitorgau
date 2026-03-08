@@ -1,27 +1,27 @@
-$ whoami
+test@testdeMacBook-Air Desktop$ whoami
 KAO, EN-TSAI
 
-$ role
+test@testdeMacBook-Air Desktop$ role
 Computer Science student
 
-$ focus
+test@testdeMacBook-Air Desktop$ focus
 Linux
 Reverse engineering
 Automation
 Data engineering
 AI / ML
 
-$ currently
+test@testdeMacBook-Air Desktop$ currently
 Studying computer science
 Learning Linux internals
 
-$ engineering_style
+test@testdeMacBook-Air Desktop$ engineering_style
 Disciplined engineering
 
-$ projects
+test@testdeMacBook-Air Desktop$ projects
 Experimental-C2-Architecture-and-Cyber-Defense-Analysis
 Automated-University-Admission-Requirements-Analyzer
 Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy
 
-$ interest
+test@testdeMacBook-Air Desktop$ interest
 F1 enthusiast
