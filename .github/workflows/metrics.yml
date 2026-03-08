@@ -17,37 +17,68 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate dashboard.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_ACTOR: ${{ github.repository_owner }}
         run: |
           python3 - <<'PY'
           from pathlib import Path
           import html
 
-          # Read profile.txt only
           profile_lines = Path("profile.txt").read_text(encoding="utf-8").splitlines()
 
-          # Prepare SVG text lines
           lines = []
-          lines.append("profile.txt")
-          lines.append("--------------------")
+          lines.append("heinricitorgau@dashboard:~$ cat profile.txt")
+          lines.append("")
           lines.extend(profile_lines)
+          lines.append("")
+          lines.append("heinricitorgau@dashboard:~$ status")
+          lines.append("dashboard_mode=engineer_terminal")
+          lines.append("source=profile.txt")
+          lines.append("render=svg")
+          lines.append("state=stable")
 
-          # Layout settings
-          y = 40
-          line_h = 26
+          width = 1100
+          padding_x = 42
+          top_y = 54
+          line_h = 30
+          font_size = 17
+          card_radius = 18
+
+          content_height = len(lines) * line_h
+          height = top_y + content_height + 60
+
           svg_lines = []
+          y = top_y + 12
 
           for line in lines:
-              svg_lines.append(f'<text x="40" y="{y}" fill="#c9d1d9" font-family="monospace" font-size="18">{html.escape(line)}</text>')
+              safe = html.escape(line)
+              css_class = "prompt" if line.startswith("heinricitorgau@dashboard") else "line"
+              if line == "":
+                  y += line_h
+                  continue
+              svg_lines.append(
+                  f'<text x="{padding_x}" y="{y}" class="{css_class}">{safe}</text>'
+              )
               y += line_h
 
-          height = y + 40
-
-          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{height}">
-          <rect width="100%" height="100%" fill="#0d1117" />
-          {''.join(svg_lines)}
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Engineer dashboard">
+            <style>
+              .bg {{ fill: #0d1117; }}
+              .card {{ fill: #0b1220; stroke: #30363d; stroke-width: 1; }}
+              .title {{ fill: #c9d1d9; font: 600 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+              .prompt {{ fill: #7ee787; font: {font_size}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; }}
+              .line {{ fill: #c9d1d9; font: {font_size}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; }}
+              .dot-red {{ fill: #ff5f57; }}
+              .dot-yellow {{ fill: #febc2e; }}
+              .dot-green {{ fill: #28c840; }}
+              .divider {{ stroke: #21262d; stroke-width: 1; }}
+            </style>
+            <rect class="bg" x="0" y="0" width="{width}" height="{height}" rx="0" ry="0"/>
+            <rect class="card" x="24" y="20" width="{width - 48}" height="{height - 40}" rx="{card_radius}" ry="{card_radius}"/>
+            <circle class="dot-red" cx="52" cy="41" r="6"/>
+            <circle class="dot-yellow" cx="74" cy="41" r="6"/>
+            <circle class="dot-green" cx="96" cy="41" r="6"/>
+            <text x="130" y="47" class="title">engineer-dashboard / profile.txt</text>
+            <line x1="24" y1="62" x2="{width - 24}" y2="62" class="divider"/>
+            {''.join(svg_lines)}
           </svg>'''
 
           Path("dashboard.svg").write_text(svg, encoding="utf-8")
