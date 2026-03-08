@@ -1,3 +1,1 @@
-# heinricitorgau
-
 ![Dashboard](./dashboard.svg)
