@@ -1,1 +1,2 @@
-# heinrictorgau
+![GitHub Metrics](./github-metrics.svg)
+========================================
