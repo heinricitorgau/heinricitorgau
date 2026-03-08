@@ -1,0 +1,20 @@
+KAO, EN-TSAI
+Computer Science student
+
+Focus
+Linux / Reverse engineering / Automation / Data engineering / AI
+
+Currently
+Studying computer science
+Learning Linux internals
+
+Engineering
+Disciplined engineering
+
+Projects
+Experimental-C2-Architecture-and-Cyber-Defense-Analysis
+Automated-University-Admission-Requirements-Analyzer
+Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy
+
+Interest
+F1 enthusiast
