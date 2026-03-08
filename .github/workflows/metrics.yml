@@ -7,9 +7,13 @@ on:
   push:
     paths:
       - ".github/workflows/metrics.yml"
+      - "profile.txt"
+      - "README.md"
   pull_request:
     paths:
       - ".github/workflows/metrics.yml"
+      - "profile.txt"
+      - "README.md"
 
 concurrency:
   group: metrics-${{ github.ref }}
@@ -26,6 +30,48 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Generate profile card from profile.txt
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import html
+
+          profile_path = Path("profile.txt")
+          output_path = Path("profile-card.svg")
+
+          text = profile_path.read_text(encoding="utf-8").strip()
+          lines = text.splitlines() or [""]
+
+          font_size = 18
+          line_height = 28
+          padding_x = 28
+          padding_y = 36
+          width = 900
+          height = padding_y * 2 + line_height * len(lines) + 16
+
+          escaped_lines = [html.escape(line) for line in lines]
+
+          svg_lines = []
+          for i, line in enumerate(escaped_lines):
+              y = padding_y + i * line_height
+              svg_lines.append(f'    <text x="{padding_x}" y="{y}" class="line">{line}</text>')
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Profile card">
+            <style>
+              .bg {{ fill: #0d1117; }}
+              .border {{ fill: none; stroke: #30363d; stroke-width: 1; }}
+              .title {{ fill: #7ee787; font: 700 20px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+              .line {{ fill: #c9d1d9; font: {font_size}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; }}
+            </style>
+            <rect class="bg" x="0" y="0" width="{width}" height="{height}" rx="16" ry="16"/>
+            <rect class="border" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="15.5" ry="15.5"/>
+            <text x="{padding_x}" y="24" class="title">profile.txt</text>
+          {chr(10).join(svg_lines)}
+          </svg>'''
+
+          output_path.write_text(svg, encoding="utf-8")
+          PY
+
       - name: Generate GitHub metrics (minimal engineer dashboard)
         uses: lowlighter/metrics@latest
         with:
@@ -34,6 +80,7 @@ jobs:
           plugins_errors_fatal: yes
 
           filename: github-metrics.svg
+          output_condition: changed
 
           # Minimal terminal look
           template: terminal
