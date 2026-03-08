@@ -1,4 +1,4 @@
-name: Metrics
+name: Dashboard
 
 on:
   schedule:
@@ -16,105 +16,164 @@ on:
       - "README.md"
 
 concurrency:
-  group: metrics-${{ github.ref }}
+  group: dashboard-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  github-metrics:
+  build-dashboard:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate profile card from profile.txt
+      - name: Generate dashboard.svg from profile.txt and GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.repository_owner }}
         run: |
           python3 - <<'PY'
           from pathlib import Path
           import html
+          import json
+          import os
+          import urllib.request
+
+          username = os.environ["GITHUB_ACTOR"]
+          token = os.environ["GITHUB_TOKEN"]
+
+          def fetch_json(url: str):
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Accept": "application/vnd.github+json",
+                      "User-Agent": username,
+                  },
+              )
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  return json.load(resp)
+
+          user = fetch_json(f"https://api.github.com/users/{username}")
+          repos = fetch_json(f"https://api.github.com/users/{username}/repos?per_page=100&sort=updated")
+          events = fetch_json(f"https://api.github.com/users/{username}/events/public?per_page=6")
 
           profile_path = Path("profile.txt")
-          output_path = Path("profile-card.svg")
-
           text = profile_path.read_text(encoding="utf-8").strip()
-          lines = text.splitlines() or [""]
+          profile_lines = text.splitlines() or [""]
 
+          public_repos = user.get("public_repos", 0)
+          followers = user.get("followers", 0)
+          following = user.get("following", 0)
+          repo_count = len(repos)
+          total_stars = sum(int(repo.get("stargazers_count", 0)) for repo in repos)
+
+          recent_repos = []
+          for repo in repos[:3]:
+              recent_repos.append(
+                  f"{repo.get('name', '')}  ★{repo.get('stargazers_count', 0)}  {repo.get('language') or 'Unknown'}"
+              )
+
+          activity_lines = []
+          for event in events[:4]:
+              etype = event.get("type", "Event")
+              repo_name = event.get("repo", {}).get("name", "unknown")
+              if etype == "PushEvent":
+                  commits = len(event.get("payload", {}).get("commits", []))
+                  activity_lines.append(f"push {commits} commit(s) -> {repo_name}")
+              elif etype == "WatchEvent":
+                  activity_lines.append(f"starred {repo_name}")
+              elif etype == "CreateEvent":
+                  ref_type = event.get("payload", {}).get("ref_type", "resource")
+                  activity_lines.append(f"created {ref_type} -> {repo_name}")
+              elif etype == "IssuesEvent":
+                  activity_lines.append(f"issue activity -> {repo_name}")
+              elif etype == "PullRequestEvent":
+                  activity_lines.append(f"pull request activity -> {repo_name}")
+              else:
+                  activity_lines.append(f"{etype} -> {repo_name}")
+          if not activity_lines:
+              activity_lines = ["no recent public activity"]
+
+          width = 1000
+          padding_x = 36
+          top = 42
+          line_h = 28
+          section_gap = 24
           font_size = 18
-          line_height = 28
-          padding_x = 28
-          padding_y = 36
-          width = 900
-          height = padding_y * 2 + line_height * len(lines) + 16
 
-          escaped_lines = [html.escape(line) for line in lines]
+          total_lines = 0
+          total_lines += 2  # header block
+          total_lines += 2  # stats title + stats row
+          total_lines += 1 + len(profile_lines)
+          total_lines += 1 + len(recent_repos)
+          total_lines += 1 + len(activity_lines)
+          height = 70 + total_lines * line_h + section_gap * 4
 
+          def esc(s: str) -> str:
+              return html.escape(str(s))
+
+          y = top
           svg_lines = []
-          for i, line in enumerate(escaped_lines):
-              y = padding_y + i * line_height
-              svg_lines.append(f'    <text x="{padding_x}" y="{y}" class="line">{line}</text>')
 
-          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Profile card">
+          svg_lines.append(f'<text x="{padding_x}" y="{y}" class="title">heinricitorgau / dashboard</text>')
+          y += line_h
+          svg_lines.append(f'<text x="{padding_x}" y="{y}" class="muted">generated from profile.txt + GitHub API</text>')
+          y += line_h + section_gap
+
+          svg_lines.append(f'<text x="{padding_x}" y="{y}" class="section">stats</text>')
+          y += line_h
+          stats_text = (
+              f"public_repos={public_repos}   fetched_repos={repo_count}   "
+              f"followers={followers}   following={following}   total_stars={total_stars}"
+          )
+          svg_lines.append(f'<text x="{padding_x}" y="{y}" class="line">{esc(stats_text)}</text>')
+          y += line_h + section_gap
+
+          svg_lines.append(f'<text x="{padding_x}" y="{y}" class="section">whoami</text>')
+          y += line_h
+          for line in profile_lines:
+              svg_lines.append(f'<text x="{padding_x}" y="{y}" class="line">{esc(line)}</text>')
+              y += line_h
+          y += section_gap
+
+          svg_lines.append(f'<text x="{padding_x}" y="{y}" class="section">recent repos</text>')
+          y += line_h
+          for line in recent_repos or ["no repositories found"]:
+              svg_lines.append(f'<text x="{padding_x}" y="{y}" class="line">{esc(line)}</text>')
+              y += line_h
+          y += section_gap
+
+          svg_lines.append(f'<text x="{padding_x}" y="{y}" class="section">recent activity</text>')
+          y += line_h
+          for line in activity_lines:
+              svg_lines.append(f'<text x="{padding_x}" y="{y}" class="line">{esc(line)}</text>')
+              y += line_h
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="GitHub dashboard">
             <style>
               .bg {{ fill: #0d1117; }}
               .border {{ fill: none; stroke: #30363d; stroke-width: 1; }}
-              .title {{ fill: #7ee787; font: 700 20px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+              .title {{ fill: #7ee787; font: 700 24px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+              .section {{ fill: #79c0ff; font: 700 19px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
               .line {{ fill: #c9d1d9; font: {font_size}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; }}
+              .muted {{ fill: #8b949e; font: 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
             </style>
-            <rect class="bg" x="0" y="0" width="{width}" height="{height}" rx="16" ry="16"/>
-            <rect class="border" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="15.5" ry="15.5"/>
-            <text x="{padding_x}" y="24" class="title">profile.txt</text>
-          {chr(10).join(svg_lines)}
+            <rect class="bg" x="0" y="0" width="{width}" height="{height}" rx="18" ry="18"/>
+            <rect class="border" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="17.5" ry="17.5"/>
+            {''.join(svg_lines)}
           </svg>'''
 
-          output_path.write_text(svg, encoding="utf-8")
+          Path("dashboard.svg").write_text(svg, encoding="utf-8")
           PY
 
-      - name: Commit profile card if changed
+      - name: Commit dashboard if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-card.svg
-          git diff --cached --quiet || git commit -m "chore: update profile card"
+          git add dashboard.svg
+          git diff --cached --quiet || git commit -m "chore: update dashboard"
           git push
-
-      - name: Generate GitHub metrics (minimal engineer dashboard)
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: heinricitorgau
-          plugins_errors_fatal: yes
-
-          filename: github-metrics.svg
-
-          # Minimal terminal look
-          template: terminal
-          config_timezone: Asia/Taipei
-          config_display: large
-          config_padding: 18%, 14%
-
-          # Minimal engineer dashboard with intro + activity
-          base: header, activity, repositories
-
-          # Self-introduction block
-          plugin_introduction: yes
-          plugin_introduction_title: whoami
-
-          # Show one small, representative repository section
-          plugin_repositories: yes
-          plugin_repositories_featured: heinricitorgau/heinricitorgau
-          plugin_repositories_order: featured, pinned
-          plugin_repositories_pinned: 1
-
-          # No extra plugins for maximum reliability and minimalism
-          # plugin_isocalendar: yes
-          # plugin_languages: yes
-          # plugin_lines: yes
-          # plugin_habits: yes
-          # plugin_traffic: yes
-          # plugin_achievements: yes
-
-          output_action: commit
-          committer_message: "chore: update minimal metrics dashboard"
