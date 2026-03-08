@@ -25,11 +25,22 @@ jobs:
           profile_lines = Path("profile.txt").read_text(encoding="utf-8").splitlines()
 
           raw_text = Path("profile.txt").read_text(encoding="utf-8")
-          file_size = len(raw_text.encode("utf-8"))
+          raw_bytes = raw_text.encode("utf-8")
+          file_size = len(raw_bytes)
+          line_count = len(profile_lines)
+          word_count = len(raw_text.split())
+          block_size = 4096
+          blocks = max(8, ((file_size + 511) // 512) * 8)
 
           lines = []
           lines.append("heinricitorgau@ubuntu:~$ ls")
           lines.append("dashboard.svg  profile.txt")
+          lines.append("")
+          lines.append("heinricitorgau@ubuntu:~$ wc -l profile.txt")
+          lines.append(f"{line_count} profile.txt")
+          lines.append("")
+          lines.append("heinricitorgau@ubuntu:~$ wc -w profile.txt")
+          lines.append(f"{word_count} profile.txt")
           lines.append("")
           lines.append("heinricitorgau@ubuntu:~$ cat profile.txt")
           lines.append("")
@@ -37,72 +48,85 @@ jobs:
           lines.append("")
           lines.append("heinricitorgau@ubuntu:~$ stat profile.txt")
           lines.append("  File: profile.txt")
-          lines.append(f"  Size: {file_size} bytes")
-          lines.append("  Type: regular file")
-          lines.append("  Access: (0644/-rw-r--r--)")
+          lines.append(f"  Size: {file_size}        Blocks: {blocks}          IO Block: {block_size}   regular file")
+          lines.append("Device: 802h/2050d      Inode: 123456      Links: 1")
+          lines.append("Access: (0644/-rw-r--r--)  Uid: ( 1000/heinricitorgau)   Gid: ( 1000/heinricitorgau)")
+          lines.append("Access: 2026-03-09 01:30:00.000000000 +0800")
+          lines.append("Modify: 2026-03-09 01:30:00.000000000 +0800")
+          lines.append("Change: 2026-03-09 01:30:00.000000000 +0800")
+          lines.append(" Birth: -")
           lines.append("")
-          lines.append("heinricitorgau@ubuntu:~$ _")
+          lines.append("heinricitorgau@ubuntu:~$ ")
 
-          width = 1240
-          padding_x = 44
-          top_y = 88
-          line_h = 28
-          font_size = 18
+          width = 1320
+          padding_x = 40
+          top_y = 94
+          line_h = 26
+          font_size = 16
           card_radius = 14
           titlebar_h = 36
 
           content_height = len(lines) * line_h
-          height = top_y + content_height + 52
+          height = top_y + content_height + 44
 
           svg_lines = []
-          y = top_y + 4
+          y = top_y
 
           for line in lines:
               safe = html.escape(line)
               if line == "":
                   y += line_h
                   continue
-              if line.startswith("heinricitorgau@ubuntu"):
-                  css_class = "prompt"
-              elif line.startswith("dashboard.svg"):
-                  css_class = "output"
-              elif line.startswith("  File:") or line.startswith("  Size:") or line.startswith("  Type:") or line.startswith("  Access:"):
-                  css_class = "meta"
-              elif line == "_":
-                  css_class = "cursor"
+              if line.startswith("heinricitorgau@ubuntu:~$"):
+                  command = safe.split("$ ", 1)[1] if "$ " in safe else ""
+                  svg_lines.append(
+                      f'<text x="{padding_x}" y="{y}" class="prompt-user">heinricitorgau@ubuntu</text>'
+                      f'<text x="{padding_x + 200}" y="{y}" class="prompt-path">:~</text>'
+                      f'<text x="{padding_x + 226}" y="{y}" class="prompt-symbol">$</text>'
+                      f'<text x="{padding_x + 244}" y="{y}" class="prompt-cmd">{command}</text>'
+                  )
+              elif line.startswith("dashboard.svg") or line.endswith(" profile.txt"):
+                  svg_lines.append(f'<text x="{padding_x}" y="{y}" class="output">{safe}</text>')
+              elif line.startswith("  File:") or line.startswith("  Size:") or line.startswith("Device:") or line.startswith("Access:") or line.startswith("Modify:") or line.startswith("Change:") or line.startswith(" Birth:"):
+                  svg_lines.append(f'<text x="{padding_x}" y="{y}" class="meta">{safe}</text>')
+              elif line == "heinricitorgau@ubuntu:~$ ":
+                  svg_lines.append(
+                      f'<text x="{padding_x}" y="{y}" class="prompt-user">heinricitorgau@ubuntu</text>'
+                      f'<text x="{padding_x + 200}" y="{y}" class="prompt-path">:~</text>'
+                      f'<text x="{padding_x + 226}" y="{y}" class="prompt-symbol">$</text>'
+                      f'<rect x="{padding_x + 244}" y="{y - 14}" width="10" height="18" class="cursor-block"/>'
+                  )
               else:
-                  css_class = "line"
-              svg_lines.append(
-                  f'<text x="{padding_x}" y="{y}" class="{css_class}">{safe}</text>'
-              )
+                  svg_lines.append(f'<text x="{padding_x}" y="{y}" class="line">{safe}</text>')
               y += line_h
 
           svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Engineer dashboard">
             <style>
               .bg {{ fill: #0d1117; }}
-              .card {{ fill: #300a24; stroke: #5e2750; stroke-width: 1; }}
-              .title {{ fill: #f6f5f4; font: 700 19px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }}
-              .path {{ fill: #d8cad2; font: 500 12px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }}
-              .prompt {{ fill: #8ae234; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
+              .card {{ fill: #300a24; stroke: #4b1b3b; stroke-width: 1; }}
+              .titlebar {{ fill: #3a0f2d; }}
+              .title {{ fill: #f6f5f4; font: 500 14px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }}
+              .path {{ fill: #d8cad2; font: 500 10px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }}
               .line {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
               .output {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .meta {{ fill: #c7c7c7; font: {font_size - 1}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .cursor {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .dot-red {{ fill: #ff6159; }}
-              .dot-yellow {{ fill: #ffbd2e; }}
-              .dot-green {{ fill: #28c840; }}
-              .divider {{ stroke: #5e2750; stroke-width: 1; }}
+              .meta {{ fill: #c7c7c7; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
+              .prompt-user {{ fill: #8ae234; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
+              .prompt-path {{ fill: #729fcf; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
+              .prompt-symbol {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
+              .prompt-cmd {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
+              .cursor-block {{ fill: #eeeeec; }}
+              .win-btn {{ fill: #7b516a; }}
+              .divider {{ stroke: #4b1b3b; stroke-width: 1; }}
             </style>
             <rect class="bg" x="0" y="0" width="{width}" height="{height}" rx="0" ry="0"/>
             <rect class="card" x="24" y="20" width="{width - 48}" height="{height - 40}" rx="{card_radius}" ry="{card_radius}"/>
-            <rect x="24" y="20" width="{width - 48}" height="{titlebar_h}" fill="#3c0f2f" rx="{card_radius}" ry="{card_radius}"/>
-            <rect x="24" y="20" width="{width - 48}" height="{titlebar_h}" fill="none" stroke="#5e2750" stroke-width="1" rx="{card_radius}" ry="{card_radius}"/>
-            <circle class="dot-red" cx="52" cy="41" r="6"/>
-            <circle class="dot-yellow" cx="74" cy="41" r="6"/>
-            <circle class="dot-green" cx="96" cy="41" r="6"/>
-            <text x="130" y="35" class="path">heinricitorgau@ubuntu: ~/profile.txt</text>
-            <text x="130" y="52" class="title">Terminal</text>
-            <line x1="24" y1="66" x2="{width - 24}" y2="66" class="divider"/>
+            <rect class="titlebar" x="24" y="20" width="{width - 48}" height="{titlebar_h}" rx="{card_radius}" ry="{card_radius}"/>
+            <rect x="24" y="20" width="{width - 48}" height="{titlebar_h}" fill="none" stroke="#4b1b3b" stroke-width="1" rx="{card_radius}" ry="{card_radius}"/>
+            <circle class="win-btn" cx="54" cy="38" r="4.5"/>
+            <circle class="win-btn" cx="70" cy="38" r="4.5"/>
+            <circle class="win-btn" cx="86" cy="38" r="4.5"/>
+            <text x="{width / 2}" y="42" class="title" text-anchor="middle">heinricitorgau@ubuntu: ~</text>
+            <line x1="24" y1="56" x2="{width - 24}" y2="56" class="divider"/>
             {''.join(svg_lines)}
           </svg>'''
 
