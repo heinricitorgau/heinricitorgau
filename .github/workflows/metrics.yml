@@ -24,77 +24,46 @@ jobs:
 
           profile_lines = Path("profile.txt").read_text(encoding="utf-8").splitlines()
 
-          raw_text = Path("profile.txt").read_text(encoding="utf-8")
-          raw_bytes = raw_text.encode("utf-8")
-          file_size = len(raw_bytes)
-          line_count = len(profile_lines)
-          word_count = len(raw_text.split())
-          block_size = 4096
-          blocks = max(8, ((file_size + 511) // 512) * 8)
-
           lines = []
-          lines.append("heinricitorgau@ubuntu:~$ ls")
-          lines.append("dashboard.svg  profile.txt")
-          lines.append("")
-          lines.append("heinricitorgau@ubuntu:~$ wc -l profile.txt")
-          lines.append(f"{line_count} profile.txt")
-          lines.append("")
-          lines.append("heinricitorgau@ubuntu:~$ wc -w profile.txt")
-          lines.append(f"{word_count} profile.txt")
-          lines.append("")
           lines.append("heinricitorgau@ubuntu:~$ cat profile.txt")
           lines.append("")
           lines.extend(profile_lines)
           lines.append("")
-          lines.append("heinricitorgau@ubuntu:~$ stat profile.txt")
-          lines.append("  File: profile.txt")
-          lines.append(f"  Size: {file_size}        Blocks: {blocks}          IO Block: {block_size}   regular file")
-          lines.append("Device: 802h/2050d      Inode: 123456      Links: 1")
-          lines.append("Access: (0644/-rw-r--r--)  Uid: ( 1000/heinricitorgau)   Gid: ( 1000/heinricitorgau)")
-          lines.append("Access: 2026-03-09 01:30:00.000000000 +0800")
-          lines.append("Modify: 2026-03-09 01:30:00.000000000 +0800")
-          lines.append("Change: 2026-03-09 01:30:00.000000000 +0800")
-          lines.append(" Birth: -")
-          lines.append("")
           lines.append("heinricitorgau@ubuntu:~$ ")
 
-          width = 1320
+          width = 1180
           padding_x = 40
-          top_y = 94
-          line_h = 26
-          font_size = 16
-          card_radius = 14
-          titlebar_h = 36
+          top_y = 84
+          line_h = 23
+          font_size = 14
+          card_radius = 8
+          titlebar_h = 32
 
           content_height = len(lines) * line_h
-          height = top_y + content_height + 44
+          height = top_y + content_height + 28
 
           svg_lines = []
-          y = top_y
+          y = top_y - 2
 
           for line in lines:
               safe = html.escape(line)
               if line == "":
                   y += line_h
                   continue
-              if line.startswith("heinricitorgau@ubuntu:~$"):
+              if line == "heinricitorgau@ubuntu:~$ ":
+                  svg_lines.append(
+                      f'<text x="{padding_x}" y="{y}" class="prompt-user">heinricitorgau@ubuntu</text>'
+                      f'<text x="{padding_x + 169}" y="{y}" class="prompt-path">:~</text>'
+                      f'<text x="{padding_x + 188}" y="{y}" class="prompt-symbol">$</text>'
+                      f'<rect x="{padding_x + 201}" y="{y - 11}" width="8" height="14" class="cursor-block"/>'
+                  )
+              elif line.startswith("heinricitorgau@ubuntu:~$"):
                   command = safe.split("$ ", 1)[1] if "$ " in safe else ""
                   svg_lines.append(
                       f'<text x="{padding_x}" y="{y}" class="prompt-user">heinricitorgau@ubuntu</text>'
-                      f'<text x="{padding_x + 200}" y="{y}" class="prompt-path">:~</text>'
-                      f'<text x="{padding_x + 226}" y="{y}" class="prompt-symbol">$</text>'
-                      f'<text x="{padding_x + 244}" y="{y}" class="prompt-cmd">{command}</text>'
-                  )
-              elif line.startswith("dashboard.svg") or line.endswith(" profile.txt"):
-                  svg_lines.append(f'<text x="{padding_x}" y="{y}" class="output">{safe}</text>')
-              elif line.startswith("  File:") or line.startswith("  Size:") or line.startswith("Device:") or line.startswith("Access:") or line.startswith("Modify:") or line.startswith("Change:") or line.startswith(" Birth:"):
-                  svg_lines.append(f'<text x="{padding_x}" y="{y}" class="meta">{safe}</text>')
-              elif line == "heinricitorgau@ubuntu:~$ ":
-                  svg_lines.append(
-                      f'<text x="{padding_x}" y="{y}" class="prompt-user">heinricitorgau@ubuntu</text>'
-                      f'<text x="{padding_x + 200}" y="{y}" class="prompt-path">:~</text>'
-                      f'<text x="{padding_x + 226}" y="{y}" class="prompt-symbol">$</text>'
-                      f'<rect x="{padding_x + 244}" y="{y - 14}" width="10" height="18" class="cursor-block"/>'
+                      f'<text x="{padding_x + 169}" y="{y}" class="prompt-path">:~</text>'
+                      f'<text x="{padding_x + 188}" y="{y}" class="prompt-symbol">$</text>'
+                      f'<text x="{padding_x + 201}" y="{y}" class="prompt-cmd">{command}</text>'
                   )
               else:
                   svg_lines.append(f'<text x="{padding_x}" y="{y}" class="line">{safe}</text>')
@@ -103,30 +72,27 @@ jobs:
           svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Engineer dashboard">
             <style>
               .bg {{ fill: #0d1117; }}
-              .card {{ fill: #300a24; stroke: #4b1b3b; stroke-width: 1; }}
+              .card {{ fill: #300a24; stroke: #2b0b22; stroke-width: 1; }}
               .titlebar {{ fill: #3a0f2d; }}
-              .title {{ fill: #f6f5f4; font: 500 14px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }}
-              .path {{ fill: #d8cad2; font: 500 10px 'Ubuntu', 'Ubuntu Mono', Menlo, Consolas, monospace; }}
-              .line {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .output {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .meta {{ fill: #c7c7c7; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .prompt-user {{ fill: #8ae234; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .prompt-path {{ fill: #729fcf; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .prompt-symbol {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
-              .prompt-cmd {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', Menlo, Consolas, monospace; white-space: pre; }}
+              .title {{ fill: #f2f2f2; font: 500 12px 'Ubuntu', 'Ubuntu Sans', Arial, sans-serif; }}
+              .line {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', 'DejaVu Sans Mono', monospace; white-space: pre; }}
+              .prompt-user {{ fill: #8ae234; font: {font_size}px 'Ubuntu Mono', 'DejaVu Sans Mono', monospace; white-space: pre; }}
+              .prompt-path {{ fill: #729fcf; font: {font_size}px 'Ubuntu Mono', 'DejaVu Sans Mono', monospace; white-space: pre; }}
+              .prompt-symbol {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', 'DejaVu Sans Mono', monospace; white-space: pre; }}
+              .prompt-cmd {{ fill: #eeeeec; font: {font_size}px 'Ubuntu Mono', 'DejaVu Sans Mono', monospace; white-space: pre; }}
               .cursor-block {{ fill: #eeeeec; }}
-              .win-btn {{ fill: #7b516a; }}
-              .divider {{ stroke: #4b1b3b; stroke-width: 1; }}
+              .win-btn {{ fill: #5e3a52; }}
+              .divider {{ stroke: #2b0b22; stroke-width: 1; }}
             </style>
             <rect class="bg" x="0" y="0" width="{width}" height="{height}" rx="0" ry="0"/>
-            <rect class="card" x="24" y="20" width="{width - 48}" height="{height - 40}" rx="{card_radius}" ry="{card_radius}"/>
-            <rect class="titlebar" x="24" y="20" width="{width - 48}" height="{titlebar_h}" rx="{card_radius}" ry="{card_radius}"/>
-            <rect x="24" y="20" width="{width - 48}" height="{titlebar_h}" fill="none" stroke="#4b1b3b" stroke-width="1" rx="{card_radius}" ry="{card_radius}"/>
-            <circle class="win-btn" cx="54" cy="38" r="4.5"/>
-            <circle class="win-btn" cx="70" cy="38" r="4.5"/>
-            <circle class="win-btn" cx="86" cy="38" r="4.5"/>
-            <text x="{width / 2}" y="42" class="title" text-anchor="middle">heinricitorgau@ubuntu: ~</text>
-            <line x1="24" y1="56" x2="{width - 24}" y2="56" class="divider"/>
+            <rect class="card" x="28" y="20" width="{width - 56}" height="{height - 40}" rx="{card_radius}" ry="{card_radius}"/>
+            <rect class="titlebar" x="28" y="20" width="{width - 56}" height="{titlebar_h}" rx="{card_radius}" ry="{card_radius}"/>
+            <rect x="28" y="20" width="{width - 56}" height="{titlebar_h}" fill="none" stroke="#2b0b22" stroke-width="1" rx="{card_radius}" ry="{card_radius}"/>
+            <circle class="win-btn" cx="52" cy="36" r="3.2"/>
+            <circle class="win-btn" cx="64" cy="36" r="3.2"/>
+            <circle class="win-btn" cx="76" cy="36" r="3.2"/>
+            <text x="{width / 2}" y="39" class="title" text-anchor="middle">heinricitorgau@ubuntu: ~</text>
+            <line x1="28" y1="52" x2="{width - 28}" y2="52" class="divider"/>
             {''.join(svg_lines)}
           </svg>'''
 
