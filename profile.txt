@@ -16,9 +16,7 @@ $ engineering_style
 Disciplined engineering
 
 $ Key_projects
-Experimental-C2-Architecture-and-Cyber-Defense-Analysis
 Automated-University-Admission-Requirements-Analyzer
-Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy
 
 $ interest
 F1 enthusiast
