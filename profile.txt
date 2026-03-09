@@ -1,22 +1,10 @@
-$ whoami
-KAO, EN-TSAI
+$ systemctl status profile
+User: Kao En-Tsai
+Role: Computer Science Student
+Focus: Systems / Automation / Security
+Location: Taiwan
 
-$ role
-Computer Science student
-
-$ focus
-Automation
-Data engineering
-AI / ML
-
-$ currently
-Studying computer science
-
-$ engineering_style
-Disciplined engineering
-
-$ Key_projects
-Automated-University-Admission-Requirements-Analyzer
-
-$ interest
-F1 enthusiast
+Active Projects:
+ - Clawer (University data crawler)
+ - Offensive-to-Defensive Security Lab
+ - Dynamic Identity System (Tor + SOCKS5)
