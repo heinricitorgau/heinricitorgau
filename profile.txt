@@ -1,32 +1,32 @@
-$ cat profile.txt
-
 User: Kao En-Tsai
 Role: Computer Science student
 Identity: Self-driven CS student
 
 Focus:
- - Linux
+ - Linux systems
  - Cybersecurity
  - Data engineering
  - AI / ML
 
 Engineering style:
  - Research oriented
+ - System thinking
 
 Currently:
  - Studying computer science
- - Exploring cybersecurity systems and automation
+ - Building cybersecurity research projects
+ - Exploring automation and data-driven systems
 
 Key projects:
- - Offense-to-Defense-A-Kali-Linux-Guide-to-Reverse-Shells-and-Backdoors
- - Implementation-of-Fake-Wi-Fi-Hotspot-and-Phishing-Login-Page-Attack
- - Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy
- - Experimental-C2-Architecture-and-Cyber-Defense-Analysis
- - Automated-University-Admission-Requirements-Analyzer
+ - Offense-to-Defense (Kali Linux reverse shell lab)
+ - Fake Wi-Fi Hotspot Phishing Simulation
+ - Dynamic Identity Hiding System (Tor + SOCKS5)
+ - Experimental C2 Architecture and Defense Analysis
+ - University Admission Requirements Analyzer
 
 Interest:
- - Cybersecurity
- - Systems research
+ - Cybersecurity research
+ - Systems engineering
  - F1 engineering mindset
 
 Location:
