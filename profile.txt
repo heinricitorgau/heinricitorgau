@@ -1,10 +1,35 @@
-$ systemctl status profile
-User: Kao En-Tsai
-Role: Computer Science Student
-Focus: Systems / Automation / Security
-Location: Taiwan
+$ cat profile.txt
 
-Active Projects:
- - Clawer (University data crawler)
- - Offensive-to-Defensive Security Lab
- - Dynamic Identity System (Tor + SOCKS5)
+User: Kao En-Tsai
+Role: Computer Science student
+Identity: Self-driven CS student
+
+Focus:
+ - Linux
+ - Cybersecurity
+ - Data engineering
+ - AI / ML
+
+Engineering style:
+ - Research oriented
+
+Currently:
+ - Studying computer science
+ - Exploring cybersecurity systems and automation
+
+Key projects:
+ - Offense-to-Defense-A-Kali-Linux-Guide-to-Reverse-Shells-and-Backdoors
+ - Implementation-of-Fake-Wi-Fi-Hotspot-and-Phishing-Login-Page-Attack
+ - Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy
+ - Experimental-C2-Architecture-and-Cyber-Defense-Analysis
+ - Automated-University-Admission-Requirements-Analyzer
+
+Interest:
+ - Cybersecurity
+ - Systems research
+ - F1 engineering mindset
+
+Location:
+ - Hsinchu, Taiwan
+
+heinricitorgau@ubuntu:~$
