@@ -31,5 +31,3 @@ Interest:
 
 Location:
  - Hsinchu, Taiwan
-
-heinricitorgau@ubuntu:~$
