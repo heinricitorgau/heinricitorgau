@@ -5,20 +5,17 @@ $ role
 Computer Science student
 
 $ focus
-Linux
-Reverse engineering
 Automation
 Data engineering
 AI / ML
 
 $ currently
 Studying computer science
-Learning Linux internals
 
 $ engineering_style
 Disciplined engineering
 
-$ projects
+$ Key_projects
 Experimental-C2-Architecture-and-Cyber-Defense-Analysis
 Automated-University-Admission-Requirements-Analyzer
 Development-of-a-Dynamic-Identity-Hiding-System-Combining-Tor-and-SOCKS5-Proxy
