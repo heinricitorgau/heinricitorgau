@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/banner.svg" alt="KAO, EN-TSAI — Applied Mathematics and Data Science" width="100%">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/banner.svg" alt="KAO, EN-TSAI — Applied Mathematics and Data Science" width="100%"></picture>
 </p>
 
 I build models and then test them against real data: numerical solvers, epidemic models, data pipelines, and circuits designed in simulation.
@@ -10,16 +10,16 @@ I build models and then test them against real data: numerical solvers, epidemic
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/heinricitorgau/Hiv-Drc-Model"><img src="https://raw.githubusercontent.com/heinricitorgau/Hiv-Drc-Model/main/assets/banner.svg" alt="Hiv-Drc-Model"></a></td>
-    <td width="50%"><a href="https://github.com/heinricitorgau/Chebyshev-Wavelet-Core"><img src="https://raw.githubusercontent.com/heinricitorgau/Chebyshev-Wavelet-Core/main/assets/banner.svg" alt="Chebyshev-Wavelet-Core"></a></td>
+    <td width="50%"><a href="https://github.com/heinricitorgau/Hiv-Drc-Model"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/Hiv-Drc-Model/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/Hiv-Drc-Model/main/assets/banner.svg" alt="Hiv-Drc-Model"></picture></a></td>
+    <td width="50%"><a href="https://github.com/heinricitorgau/Chebyshev-Wavelet-Core"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/Chebyshev-Wavelet-Core/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/Chebyshev-Wavelet-Core/main/assets/banner.svg" alt="Chebyshev-Wavelet-Core"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/heinricitorgau/mc34b-mod"><img src="https://raw.githubusercontent.com/heinricitorgau/mc34b-mod/main/assets/banner.svg" alt="mc34b-mod"></a></td>
-    <td width="50%"><a href="https://github.com/heinricitorgau/AetherRuntime"><img src="https://raw.githubusercontent.com/heinricitorgau/AetherRuntime/main/assets/aether-banner.svg" alt="AetherRuntime"></a></td>
+    <td width="50%"><a href="https://github.com/heinricitorgau/mc34b-mod"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/mc34b-mod/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/mc34b-mod/main/assets/banner.svg" alt="mc34b-mod"></picture></a></td>
+    <td width="50%"><a href="https://github.com/heinricitorgau/AetherRuntime"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/AetherRuntime/main/assets/aether-banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/AetherRuntime/main/assets/aether-banner.svg" alt="AetherRuntime"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/heinricitorgau/Research-Autoresearch"><img src="https://raw.githubusercontent.com/heinricitorgau/Research-Autoresearch/master/assets/banner.svg" alt="Research-Autoresearch"></a></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/private.svg" alt="Private repositories: CrawlerNest"></td>
+    <td width="50%"><a href="https://github.com/heinricitorgau/Research-Autoresearch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/Research-Autoresearch/master/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/Research-Autoresearch/master/assets/banner.svg" alt="Research-Autoresearch"></picture></a></td>
+    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/private-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/private.svg" alt="Private repositories: CrawlerNest"></picture></td>
   </tr>
 </table>
 

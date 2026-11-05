@@ -6,9 +6,7 @@
       <rect y="3" width="8" height="1" fill="#35283c" fill-opacity="0.05"/>
     </pattern>
   </defs>
-  <rect width="1280" height="320" fill="#ffffff"/>
-  <rect x="0.5" y="0.5" width="1279" height="319" fill="none" stroke="#e1dce4"/>
-    <g fill="#f92434" transform="translate(53.00 104.00) scale(0.06000 -0.06000)"><use href="#g0" x="0"/><use href="#g1" x="746"/><use href="#g2" x="1476"/><use href="#g3" x="2213"/><use href="#g5" x="2822"/><use href="#g6" x="3476"/><use href="#g7" x="4229"/><use href="#g8" x="4649"/><use href="#g9" x="5305"/><use href="#g1" x="5955"/><use href="#g10" x="6685"/></g>
+  <g fill="#f92434" transform="translate(53.00 104.00) scale(0.06000 -0.06000)"><use href="#g0" x="0"/><use href="#g1" x="746"/><use href="#g2" x="1476"/><use href="#g3" x="2213"/><use href="#g5" x="2822"/><use href="#g6" x="3476"/><use href="#g7" x="4229"/><use href="#g8" x="4649"/><use href="#g9" x="5305"/><use href="#g1" x="5955"/><use href="#g10" x="6685"/></g>
   <g fill="#00bfc9" transform="translate(59.00 104.00) scale(0.06000 -0.06000)"><use href="#g0" x="0"/><use href="#g1" x="746"/><use href="#g2" x="1476"/><use href="#g3" x="2213"/><use href="#g5" x="2822"/><use href="#g6" x="3476"/><use href="#g7" x="4229"/><use href="#g8" x="4649"/><use href="#g9" x="5305"/><use href="#g1" x="5955"/><use href="#g10" x="6685"/></g>
   <g fill="#180b20" transform="translate(56.00 104.00) scale(0.06000 -0.06000)"><use href="#g0" x="0"/><use href="#g1" x="746"/><use href="#g2" x="1476"/><use href="#g3" x="2213"/><use href="#g5" x="2822"/><use href="#g6" x="3476"/><use href="#g7" x="4229"/><use href="#g8" x="4649"/><use href="#g9" x="5305"/><use href="#g1" x="5955"/><use href="#g10" x="6685"/></g>
   <rect x="56" y="126" width="72" height="6" fill="#e94300"/>
