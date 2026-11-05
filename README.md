@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="KAO, EN-TSAI — Applied Mathematics and Data Science" width="100%">
+  <img src="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/banner.svg" alt="KAO, EN-TSAI — Applied Mathematics and Data Science" width="100%">
 </p>
 
 I study Applied Mathematics & Data Science at Tamkang University. I like problems where a model has to hold up against real data: numerical solvers, epidemic models, data pipelines, and circuits that exist only in simulation.
@@ -40,7 +40,7 @@ I study Applied Mathematics & Data Science at Tamkang University. I like problem
       A learning edition of an autonomous LLM research loop, adapted to run on Apple Silicon and consumer NVIDIA GPUs.
     </td>
     <td width="50%" valign="top">
-      <img src="assets/private.svg" alt="Private repositories">
+      <img src="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/private.svg" alt="Private repositories">
       <br><b>Private repositories</b> (not public yet)<br>
       CrawlerNest, a multi-source university ranking platform: crawlers ingest QS, THE and ARWU into a PostgreSQL warehouse, entity resolution merges them, and a Spring Boot API and Next.js site serve the results with explicit caveats.
     </td>
