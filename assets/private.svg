@@ -1,19 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Private repositories">
-  <rect width="1280" height="320" fill="#c4cbd2"/>
-  <rect x="0.5" y="0.5" width="1279" height="319" fill="none" stroke="#a1a9af"/>
-    <text x="56" y="104" font-family="'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif" font-size="43" font-weight="600" letter-spacing="-1" fill="#060e15">Private repositories</text>
-  <rect x="56" y="122" width="504" height="2" fill="#2b343b"/>
-  <text x="56" y="166" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="23" fill="#182027">Code I keep private for now, listed</text>
-  <text x="56" y="198" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="23" fill="#182027">so the work is on the record.</text>
-  <text x="56" y="260" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="17" font-weight="500" fill="#3b434b">Shown here by name only</text>
-  <rect x="640" y="36" width="596" height="248" fill="#e5eaef"/>
-  <rect x="640" y="36" width="596" height="2" fill="#060e15"/>
-  <text x="660" y="66" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="15" font-weight="500" fill="#3b434b">Private</text>
-  <text x="660" y="98" text-anchor="start" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="14" font-weight="500" fill="#3b434b">Repository</text>
-  <text x="890" y="98" text-anchor="start" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="14" font-weight="500" fill="#3b434b">Languages</text>
-  <text x="1204" y="98" text-anchor="end" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="14" font-weight="500" fill="#3b434b">Started</text>
-  <rect x="660" y="107" width="556" height="2" fill="#2b343b"/>
-  <text x="660" y="131.4" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="16" fill="#060e15">CrawlerNest</text>
-  <text x="890" y="131.4" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="16" fill="#060e15">Python, Java, TS</text>
-  <text x="1204" y="131.4" text-anchor="end" font-family="'IBM Plex Mono', Consolas, 'Courier New', monospace" font-size="15" fill="#060e15">2026-03</text>
+  <defs>
+    <pattern id="grille" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="1" height="3" fill="#f92434" fill-opacity="0.07"/>
+      <rect x="1" width="1" height="3" fill="#4ee11b" fill-opacity="0.07"/>
+      <rect x="2" width="1" height="3" fill="#376eff" fill-opacity="0.07"/>
+      <rect y="2" width="3" height="1" fill="#030104" fill-opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="#0f0415"/>
+    <text x="54" y="108" font-family="'Bungee', Impact, 'Arial Black', sans-serif" font-size="44" fill="#f92434">PRIVATE REPOSITORIES</text>
+  <text x="58" y="108" font-family="'Bungee', Impact, 'Arial Black', sans-serif" font-size="44" fill="#00d1da">PRIVATE REPOSITORIES</text>
+  <text x="56" y="108" font-family="'Bungee', Impact, 'Arial Black', sans-serif" font-size="44" fill="#f2ecf5">PRIVATE REPOSITORIES</text>
+  <rect x="56" y="126" width="72" height="6" fill="#f85200"/>
+  <text x="56" y="172" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#d9d1dd">Code I keep private for now, listed</text>
+  <text x="56" y="203" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#d9d1dd">so the work is on the record.</text>
+  <text x="56" y="262" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#d5e51b">Shown here by name only</text>
+  <rect x="646" y="40" width="590" height="244" rx="4" fill="#d5e51b"/>
+  <rect x="640" y="34" width="590" height="244" rx="4" fill="#190d20" stroke="#41304b" stroke-width="2"/>
+  <text x="660" y="64" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#a79dac">Private</text>
+  <text x="660" y="96" text-anchor="start" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#a79dac">Repository</text>
+  <text x="890" y="96" text-anchor="start" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#a79dac">Languages</text>
+  <text x="1204" y="96" text-anchor="end" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#a79dac">Started</text>
+  <rect x="660" y="105" width="550" height="2" fill="#a79dac"/>
+  <text x="660" y="129.4" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#f2ecf5">CrawlerNest</text>
+  <text x="890" y="129.4" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#f2ecf5">Python, Java, TS</text>
+  <text x="1204" y="129.4" text-anchor="end" font-family="'Chivo', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="900" fill="#f2ecf5">2026-03</text>
+  <rect x="641" y="35" width="588" height="242" rx="3" fill="url(#grille)"/>
 </svg>
