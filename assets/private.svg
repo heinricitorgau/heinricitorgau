@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Private repositories">
+  <rect width="1280" height="320" fill="#c4cbd2"/>
+  <rect x="0.5" y="0.5" width="1279" height="319" fill="none" stroke="#a1a9af"/>
+    <text x="56" y="104" font-family="'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif" font-size="43" font-weight="600" letter-spacing="-1" fill="#060e15">Private repositories</text>
+  <rect x="56" y="122" width="504" height="2" fill="#2b343b"/>
+  <text x="56" y="166" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="23" fill="#182027">Code I keep private for now, listed</text>
+  <text x="56" y="198" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="23" fill="#182027">so the work is on the record.</text>
+  <text x="56" y="260" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="17" font-weight="500" fill="#3b434b">Shown here by name only</text>
+  <rect x="640" y="36" width="596" height="248" fill="#e5eaef"/>
+  <rect x="640" y="36" width="596" height="2" fill="#060e15"/>
+  <text x="660" y="66" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="15" font-weight="500" fill="#3b434b">Private</text>
+  <text x="660" y="98" text-anchor="start" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="14" font-weight="500" fill="#3b434b">Repository</text>
+  <text x="890" y="98" text-anchor="start" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="14" font-weight="500" fill="#3b434b">Languages</text>
+  <text x="1204" y="98" text-anchor="end" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="14" font-weight="500" fill="#3b434b">Started</text>
+  <rect x="660" y="107" width="556" height="2" fill="#2b343b"/>
+  <text x="660" y="131.4" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="16" fill="#060e15">CrawlerNest</text>
+  <text x="890" y="131.4" font-family="'Newsreader', Georgia, 'Times New Roman', serif" font-size="16" fill="#060e15">Python, Java, TS</text>
+  <text x="1204" y="131.4" text-anchor="end" font-family="'IBM Plex Mono', Consolas, 'Courier New', monospace" font-size="15" fill="#060e15">2026-03</text>
+</svg>
