@@ -8,20 +8,14 @@ I build models and then test them against real data: numerical solvers, epidemic
 
 ### Projects
 
-<table>
-  <tr>
-    <td width="50%"><a href="https://github.com/heinricitorgau/Hiv-Drc-Model"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/Hiv-Drc-Model/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/Hiv-Drc-Model/main/assets/banner.svg" alt="Hiv-Drc-Model"></picture></a></td>
-    <td width="50%"><a href="https://github.com/heinricitorgau/Chebyshev-Wavelet-Core"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/Chebyshev-Wavelet-Core/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/Chebyshev-Wavelet-Core/main/assets/banner.svg" alt="Chebyshev-Wavelet-Core"></picture></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://github.com/heinricitorgau/mc34b-mod"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/mc34b-mod/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/mc34b-mod/main/assets/banner.svg" alt="mc34b-mod"></picture></a></td>
-    <td width="50%"><a href="https://github.com/heinricitorgau/AetherRuntime"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/AetherRuntime/main/assets/aether-banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/AetherRuntime/main/assets/aether-banner.svg" alt="AetherRuntime"></picture></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://github.com/heinricitorgau/Research-Autoresearch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/Research-Autoresearch/master/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/Research-Autoresearch/master/assets/banner.svg" alt="Research-Autoresearch"></picture></a></td>
-    <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/private-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/private.svg" alt="Private repositories: CrawlerNest"></picture></td>
-  </tr>
-</table>
+<p align="center">
+<a href="https://github.com/heinricitorgau/Hiv-Drc-Model"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/Hiv-Drc-Model/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/Hiv-Drc-Model/main/assets/banner.svg" alt="Hiv-Drc-Model" width="49%"></picture></a>
+<a href="https://github.com/heinricitorgau/Chebyshev-Wavelet-Core"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/Chebyshev-Wavelet-Core/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/Chebyshev-Wavelet-Core/main/assets/banner.svg" alt="Chebyshev-Wavelet-Core" width="49%"></picture></a>
+<a href="https://github.com/heinricitorgau/mc34b-mod"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/mc34b-mod/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/mc34b-mod/main/assets/banner.svg" alt="mc34b-mod" width="49%"></picture></a>
+<a href="https://github.com/heinricitorgau/AetherRuntime"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/AetherRuntime/main/assets/aether-banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/AetherRuntime/main/assets/aether-banner.svg" alt="AetherRuntime" width="49%"></picture></a>
+<a href="https://github.com/heinricitorgau/Research-Autoresearch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/Research-Autoresearch/master/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/Research-Autoresearch/master/assets/banner.svg" alt="Research-Autoresearch" width="49%"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/private-dark.svg"><img src="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/private.svg" alt="Private repositories: CrawlerNest" width="49%"></picture>
+</p>
 
 ### Tools
 
