@@ -2,9 +2,9 @@
   <img src="https://raw.githubusercontent.com/heinricitorgau/heinricitorgau/main/assets/banner.svg" alt="KAO, EN-TSAI — Applied Mathematics and Data Science" width="100%">
 </p>
 
-I study Applied Mathematics & Data Science at Tamkang University. I like problems where a model has to hold up against real data: numerical solvers, epidemic models, data pipelines, and circuits that exist only in simulation.
+I study Applied Mathematics and Data Science at Tamkang University. I build models and then test them against real data: numerical solvers, epidemic models, data pipelines, and circuits designed in simulation.
 
-我在淡江大學念應用數學與資料科學，喜歡做模型必須經得起真實資料檢驗的題目，像是數值解法、傳染病模型、資料管線，還有只存在於模擬中的電路。
+我在淡江大學念應用數學與資料科學。我喜歡先建立模型，再用真實資料驗證它，做過的題目包括數值解法、傳染病模型、資料管線，以及在模擬軟體裡設計的電路。
 
 ### Projects
 
