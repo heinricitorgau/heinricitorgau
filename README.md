@@ -6,6 +6,14 @@ I build models and then test them against real data: numerical solvers, epidemic
 
 我喜歡先建立模型，再用真實資料驗證它，做過的題目包括數值解法、傳染病模型、資料管線，以及在模擬軟體裡設計的電路。
 
+### Highlights
+
+| | Result · 成果 | |
+| --- | --- | --- |
+| [**Hiv-Drc-Model**](https://github.com/heinricitorgau/Hiv-Drc-Model) | Reproduces a published HIV/AIDS model to six digits, runs it backwards to recover hidden rates from noisy data, then shows it cannot be calibrated to real UNAIDS data.<br>重現已發表的 HIV/AIDS 模型到小數點後六位，反推隱藏參數，並證明它無法以 UNAIDS 真實資料校準。 | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hiv-drc-model-6h4eabztaookr4gj4steeg.streamlit.app)<br>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24274982.svg)](https://doi.org/10.5281/zenodo.24274982)<br>[![Tests](https://github.com/heinricitorgau/hiv-drc-model/actions/workflows/ci.yml/badge.svg)](https://github.com/heinricitorgau/hiv-drc-model/actions/workflows/ci.yml) |
+| [**Chebyshev-Wavelet-Core**](https://github.com/heinricitorgau/Chebyshev-Wavelet-Core) | Chebyshev-wavelet operational matrices for any resolution and order: matches the paper with zero error, converges at the theoretical rate, and is cross-checked against Lean 4 proofs.<br>任意解析度與階數的 Chebyshev 小波運算矩陣：與論文逐項誤差為零、以理論速率收斂，並與 Lean 4 證明交叉比對。 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24285430.svg)](https://doi.org/10.5281/zenodo.24285430)<br>[![CI](https://github.com/heinricitorgau/Chebyshev-Wavelet-Core/actions/workflows/ci.yml/badge.svg)](https://github.com/heinricitorgau/Chebyshev-Wavelet-Core/actions/workflows/ci.yml) |
+| [**mc34b-mod**](https://github.com/heinricitorgau/mc34b-mod) | A push-pull tube amplifier designed entirely in SPICE (simulation only): an oscillation found and designed out across 120 transformer variants, with supply and Monte Carlo tolerance studies.<br>完全在 SPICE 中設計的推挽真空管擴大機（純模擬）：在 120 組變壓器假設下找出並消除振盪，另有電源與蒙地卡羅容差分析。 | |
+
 ### Projects
 
 <p align="center">
