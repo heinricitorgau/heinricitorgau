@@ -1,0 +1,23 @@
+name: Profile links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Weekly: banners live in other repositories and can break without a push here.
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Doctest the URL extractor
+        run: python -m doctest -v .github/scripts/check_links.py | tail -n 1
+      - name: Check GitHub-hosted images and links
+        run: python .github/scripts/check_links.py README.md
